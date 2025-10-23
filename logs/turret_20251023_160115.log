@@ -1,0 +1,13 @@
+2025-10-23 16:01:15,662 - turret - INFO - Starting paper experiment replication...
+2025-10-23 16:01:15,662 - turret - INFO - Running Size Transfer Experiments...
+2025-10-23 16:01:15,662 - turret - INFO - Processing target: Humanoid
+2025-10-23 16:01:15,663 - turret - INFO -  Seed 0: Final reward = 749.71
+2025-10-23 16:01:15,663 - turret - INFO -  Seed 1: Final reward = 813.19
+2025-10-23 16:01:15,663 - turret - INFO - Processing target: Walker2d
+2025-10-23 16:01:15,663 - turret - INFO -  Seed 0: Final reward = 776.25
+2025-10-23 16:01:15,663 - turret - INFO -  Seed 1: Final reward = 788.18
+2025-10-23 16:01:15,663 - turret - INFO - Running Morphology Transfer Experiments...
+2025-10-23 16:01:15,663 - turret - INFO - Processing scenario: HalfCheetah_Ant_to_Walker2d
+2025-10-23 16:01:15,663 - turret - INFO -  Seed 0: Final reward = 526.33
+2025-10-23 16:01:15,663 - turret - INFO -  Seed 1: Final reward = 582.22
+2025-10-23 16:01:15,663 - turret - ERROR - Experiment failed: name 'json' is not defined

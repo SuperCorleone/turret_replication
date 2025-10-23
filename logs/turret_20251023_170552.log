@@ -1,0 +1,4 @@
+2025-10-23 17:05:52,309 - turret - INFO - Setting up size transfer: ['Centipede-4', 'Centipede-6'] -> Centipede-12
+2025-10-23 17:05:52,851 - turret - INFO - Size transfer experiment setup completed
+2025-10-23 17:05:52,851 - turret - INFO - Starting size transfer experiment
+2025-10-23 17:05:52,986 - turret - INFO - Episode 0: reward=847.115, policy_loss=-1.117, independence_p=0.004

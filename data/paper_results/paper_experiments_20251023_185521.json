@@ -1,0 +1,3452 @@
+{
+  "size_transfer": {
+    "centipede_4_to_12": [
+      {
+        "training_curves": [
+          {
+            "episode": 0,
+            "reward": 1216.4769818717432,
+            "policy_loss": -1.1225438833236694,
+            "value_loss": 97.94390182495117,
+            "entropy_loss": -33.91122665405273,
+            "total_loss": 47.51029396057129,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999999,
+            "approx_kl": -0.1722263962030411,
+            "clip_fraction": 0.4609375,
+            "transfer_weights_mean": 0.5000000149011612,
+            "transfer_weights_std": 0.005493029952049255,
+            "semantic_distance_mean": 0.1704212874174118,
+            "independence_p": 0.001,
+            "transfer_strength": 0.999
+          },
+          {
+            "episode": 1,
+            "reward": 2359.54740661148,
+            "policy_loss": -1.0839108943939209,
+            "value_loss": 56.86371536254883,
+            "entropy_loss": -33.79247970581055,
+            "total_loss": 27.010022163391113,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999998,
+            "approx_kl": -0.1349115788936615,
+            "clip_fraction": 0.46875,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.006966233253479004,
+            "semantic_distance_mean": 0.40951551496982574,
+            "independence_p": 0.002,
+            "transfer_strength": 0.998
+          },
+          {
+            "episode": 2,
+            "reward": -1274.4391848497091,
+            "policy_loss": -1.100121545791626,
+            "value_loss": 58.778176879882814,
+            "entropy_loss": -33.7052562713623,
+            "total_loss": 27.95191421508789,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999997,
+            "approx_kl": -0.19574935138225555,
+            "clip_fraction": 0.61875,
+            "transfer_weights_mean": 0.4999999850988388,
+            "transfer_weights_std": 0.002683892846107483,
+            "semantic_distance_mean": 0.17798012495040894,
+            "independence_p": 0.003,
+            "transfer_strength": 0.997
+          },
+          {
+            "episode": 3,
+            "reward": 1965.2027889619953,
+            "policy_loss": -1.074290943145752,
+            "value_loss": 46.80001945495606,
+            "entropy_loss": -33.62175331115723,
+            "total_loss": 21.989501190185546,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999996,
+            "approx_kl": -0.09852312803268433,
+            "clip_fraction": 0.5265625,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.0003781914710998535,
+            "semantic_distance_mean": 0.17576781660318375,
+            "independence_p": 0.004,
+            "transfer_strength": 0.996
+          },
+          {
+            "episode": 4,
+            "reward": 3210.9415435364467,
+            "policy_loss": -1.0702853858470918,
+            "value_loss": 49.302158737182616,
+            "entropy_loss": -33.64936408996582,
+            "total_loss": 23.244300079345702,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999950000000002,
+            "approx_kl": -0.12013202607631683,
+            "clip_fraction": 0.521875,
+            "transfer_weights_mean": 0.4999999850988388,
+            "transfer_weights_std": 0.0009940415620803833,
+            "semantic_distance_mean": 0.39672842621803284,
+            "independence_p": 0.005,
+            "transfer_strength": 0.995
+          },
+          {
+            "episode": 5,
+            "reward": 1736.376707301736,
+            "policy_loss": -1.0486303448677063,
+            "value_loss": 41.52060890197754,
+            "entropy_loss": -33.77581787109375,
+            "total_loss": 19.37391586303711,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999940000000002,
+            "approx_kl": -0.10727663040161133,
+            "clip_fraction": 0.4640625,
+            "transfer_weights_mean": 0.5000000149011612,
+            "transfer_weights_std": 0.008035406470298767,
+            "semantic_distance_mean": 0.3514145612716675,
+            "independence_p": 0.006,
+            "transfer_strength": 0.994
+          },
+          {
+            "episode": 6,
+            "reward": 1720.7505168894681,
+            "policy_loss": -1.0156719446182252,
+            "value_loss": 38.67514762878418,
+            "entropy_loss": -33.69660911560059,
+            "total_loss": 17.98493585586548,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999930000000002,
+            "approx_kl": -0.07222720384597778,
+            "clip_fraction": 0.5328125,
+            "transfer_weights_mean": 0.5000000149011612,
+            "transfer_weights_std": 0.004906997084617615,
+            "semantic_distance_mean": 0.22217470407485962,
+            "independence_p": 0.007,
+            "transfer_strength": 0.993
+          },
+          {
+            "episode": 7,
+            "reward": -6857.146985164187,
+            "policy_loss": -1.07592431306839,
+            "value_loss": 137.95806884765625,
+            "entropy_loss": -33.57546501159668,
+            "total_loss": 67.56735382080078,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999920000000002,
+            "approx_kl": -0.11731277108192444,
+            "clip_fraction": 0.465625,
+            "transfer_weights_mean": 0.4999999701976776,
+            "transfer_weights_std": 0.0051995813846588135,
+            "semantic_distance_mean": 0.1955757439136505,
+            "independence_p": 0.008,
+            "transfer_strength": 0.992
+          },
+          {
+            "episode": 8,
+            "reward": -741.7229678270317,
+            "policy_loss": -1.0641916275024415,
+            "value_loss": 101.79131851196288,
+            "entropy_loss": -33.442528915405276,
+            "total_loss": 49.49704246520996,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999991,
+            "approx_kl": -0.11845825612545013,
+            "clip_fraction": 0.5640625,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.0006340146064758301,
+            "semantic_distance_mean": 0.16623857617378235,
+            "independence_p": 0.009,
+            "transfer_strength": 0.991
+          },
+          {
+            "episode": 9,
+            "reward": -4323.1849625613695,
+            "policy_loss": -0.9987441062927246,
+            "value_loss": 98.6314094543457,
+            "entropy_loss": -33.43995895385742,
+            "total_loss": 47.982560348510745,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.199999,
+            "approx_kl": -0.011257046461105346,
+            "clip_fraction": 0.5859375,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.004908740520477295,
+            "semantic_distance_mean": 0.1294706091284752,
+            "independence_p": 0.01,
+            "transfer_strength": 0.99
+          },
+          {
+            "episode": 10,
+            "reward": -402.9421195925964,
+            "policy_loss": -1.0733839273452759,
+            "value_loss": 88.81837692260743,
+            "entropy_loss": -33.57434310913086,
+            "total_loss": 43.000060653686525,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999989,
+            "approx_kl": -0.12146193087100983,
+            "clip_fraction": 0.4859375,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.003247380256652832,
+            "semantic_distance_mean": 0.14660834521055222,
+            "independence_p": 0.011,
+            "transfer_strength": 0.989
+          },
+          {
+            "episode": 11,
+            "reward": 4760.184924625231,
+            "policy_loss": -1.0129236280918121,
+            "value_loss": 46.18712196350098,
+            "entropy_loss": -33.61580963134766,
+            "total_loss": 21.744479370117187,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999988,
+            "approx_kl": -0.05043613612651825,
+            "clip_fraction": 0.63125,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.0006968975067138672,
+            "semantic_distance_mean": 0.2317100614309311,
+            "independence_p": 0.012,
+            "transfer_strength": 0.988
+          },
+          {
+            "episode": 12,
+            "reward": 3362.745035611079,
+            "policy_loss": -1.0396212577819823,
+            "value_loss": 59.16580657958984,
+            "entropy_loss": -33.48102912902832,
+            "total_loss": 28.2084716796875,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999987,
+            "approx_kl": -0.0808154970407486,
+            "clip_fraction": 0.553125,
+            "transfer_weights_mean": 0.5000000149011612,
+            "transfer_weights_std": 0.003852948546409607,
+            "semantic_distance_mean": 0.18249960243701935,
+            "independence_p": 0.013,
+            "transfer_strength": 0.987
+          },
+          {
+            "episode": 13,
+            "reward": -143.32308798827216,
+            "policy_loss": -0.997303581237793,
+            "value_loss": 43.47974891662598,
+            "entropy_loss": -33.54763412475586,
+            "total_loss": 20.407094383239745,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999986,
+            "approx_kl": -0.0022445112466812135,
+            "clip_fraction": 0.5140625,
+            "transfer_weights_mean": 0.4999999850988388,
+            "transfer_weights_std": 0.005168452858924866,
+            "semantic_distance_mean": 0.20991705358028412,
+            "independence_p": 0.014,
+            "transfer_strength": 0.986
+          },
+          {
+            "episode": 14,
+            "reward": -8925.411086941214,
+            "policy_loss": -1.0665106773376465,
+            "value_loss": 54.884574508666994,
+            "entropy_loss": -33.33421440124512,
+            "total_loss": 26.04243412017822,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999850000000002,
+            "approx_kl": -0.12557384073734285,
+            "clip_fraction": 0.528125,
+            "transfer_weights_mean": 0.4999999850988388,
+            "transfer_weights_std": 0.0010567456483840942,
+            "semantic_distance_mean": 0.1639322116971016,
+            "independence_p": 0.015,
+            "transfer_strength": 0.985
+          },
+          {
+            "episode": 15,
+            "reward": -1899.342675534711,
+            "policy_loss": -1.0204822599887848,
+            "value_loss": 29.36572265625,
+            "entropy_loss": -33.29940338134766,
+            "total_loss": 13.329384994506835,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999840000000002,
+            "approx_kl": -0.048718875646591185,
+            "clip_fraction": 0.6046875,
+            "transfer_weights_mean": 0.5000000149011612,
+            "transfer_weights_std": 0.002982601523399353,
+            "semantic_distance_mean": 0.19455476850271225,
+            "independence_p": 0.016,
+            "transfer_strength": 0.984
+          },
+          {
+            "episode": 16,
+            "reward": 2023.2189189032636,
+            "policy_loss": -1.0515136063098907,
+            "value_loss": 18.795890903472902,
+            "entropy_loss": -33.54911117553711,
+            "total_loss": 8.010940837860108,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999830000000002,
+            "approx_kl": -0.11422714293003082,
+            "clip_fraction": 0.4921875,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.0004781484603881836,
+            "semantic_distance_mean": 0.28828588128089905,
+            "independence_p": 0.017,
+            "transfer_strength": 0.983
+          },
+          {
+            "episode": 17,
+            "reward": 894.4691254914,
+            "policy_loss": -1.055198210477829,
+            "value_loss": 16.381106567382812,
+            "entropy_loss": -33.41552734375,
+            "total_loss": 6.801199817657471,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999820000000001,
+            "approx_kl": -0.09715088307857514,
+            "clip_fraction": 0.571875,
+            "transfer_weights_mean": 0.4999999701976776,
+            "transfer_weights_std": 0.005237847566604614,
+            "semantic_distance_mean": 0.2186608538031578,
+            "independence_p": 0.018,
+            "transfer_strength": 0.982
+          },
+          {
+            "episode": 18,
+            "reward": -467.98327915990734,
+            "policy_loss": -1.0212887108325959,
+            "value_loss": 12.533436679840088,
+            "entropy_loss": -33.31804885864258,
+            "total_loss": 4.9122490882873535,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999981,
+            "approx_kl": -0.04828088879585266,
+            "clip_fraction": 0.53125,
+            "transfer_weights_mean": 0.4999999850988388,
+            "transfer_weights_std": 0.0005456358194351196,
+            "semantic_distance_mean": 0.2281188741326332,
+            "independence_p": 0.019,
+            "transfer_strength": 0.981
+          },
+          {
+            "episode": 19,
+            "reward": 1074.1804645652044,
+            "policy_loss": -1.0498039603233338,
+            "value_loss": 8.213574838638305,
+            "entropy_loss": -33.13108940124512,
+            "total_loss": 2.7256725788116456,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.199998,
+            "approx_kl": -0.08635840117931366,
+            "clip_fraction": 0.5296875,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.0018375515937805176,
+            "semantic_distance_mean": 0.23775564879179,
+            "independence_p": 0.02,
+            "transfer_strength": 0.98
+          }
+        ],
+        "transfer_statistics": [
+          {
+            "transfer_weights_mean": [
+              0.49450698494911194,
+              0.5054930448532104
+            ],
+            "transfer_weights_std": [
+              0.0,
+              0.0
+            ],
+            "independence_p_mean": 0.001,
+            "independence_p_std": 0.0,
+            "semantic_distance_mean": 0.1704212874174118,
+            "semantic_distance_std": 0.005156129598617554
+          },
+          {
+            "transfer_weights_mean": [
+              0.5007366091012955,
+              0.4992634057998657
+            ],
+            "transfer_weights_std": [
+              0.006229624152183533,
+              0.0062296390533447266
+            ],
+            "independence_p_mean": 0.0015,
+            "independence_p_std": 0.0005,
+            "semantic_distance_mean": 0.2899684011936188,
+            "semantic_distance_std": 0.12038579852408542
+          },
+          {
+            "transfer_weights_mean": [
+              0.49959643681844074,
+              0.5004035631815592
+            ],
+            "transfer_weights_std": [
+              0.005335928259215311,
+              0.00533593348909376
+            ],
+            "independence_p_mean": 0.002,
+            "independence_p_std": 0.000816496580927726,
+            "semantic_distance_mean": 0.2526389757792155,
+            "semantic_distance_std": 0.11171207921728153
+          },
+          {
+            "transfer_weights_mean": [
+              0.4996027797460556,
+              0.5003972202539444
+            ],
+            "transfer_weights_std": [
+              0.004621062484841725,
+              0.0046210670140365215
+            ],
+            "independence_p_mean": 0.0025,
+            "independence_p_std": 0.001118033988749895,
+            "semantic_distance_mean": 0.23342118598520756,
+            "semantic_distance_std": 0.10231178296106554
+          },
+          {
+            "transfer_weights_mean": [
+              0.4998810291290283,
+              0.5001189649105072
+            ],
+            "transfer_weights_std": [
+              0.004170499450611168,
+              0.00417050505612672
+            ],
+            "independence_p_mean": 0.003,
+            "independence_p_std": 0.001414213562373095,
+            "semantic_distance_mean": 0.2660826340317726,
+            "semantic_distance_std": 0.11244780740214338
+          },
+          {
+            "transfer_weights_mean": [
+              0.501240094502767,
+              0.4987599054972331
+            ],
+            "transfer_weights_std": [
+              0.004871294985945696,
+              0.004871290670519866
+            ],
+            "independence_p_mean": 0.0034999999999999996,
+            "independence_p_std": 0.0017078251276599332,
+            "semantic_distance_mean": 0.2803046219050884,
+            "semantic_distance_std": 0.10757009557644873
+          },
+          {
+            "transfer_weights_mean": [
+              0.5017639398574829,
+              0.49823606439999174
+            ],
+            "transfer_weights_std": [
+              0.004688930355912951,
+              0.004688923659264039
+            ],
+            "independence_p_mean": 0.003999999999999999,
+            "independence_p_std": 0.002,
+            "semantic_distance_mean": 0.27200034792934147,
+            "semantic_distance_std": 0.10267032379498564
+          },
+          {
+            "transfer_weights_mean": [
+              0.5021933913230896,
+              0.4978066049516201
+            ],
+            "transfer_weights_std": [
+              0.004530872909987527,
+              0.004530872142499154
+            ],
+            "independence_p_mean": 0.0045,
+            "independence_p_std": 0.0022912878474779202,
+            "semantic_distance_mean": 0.2624472724273801,
+            "semantic_distance_std": 0.09932668858327494
+          },
+          {
+            "transfer_weights_mean": [
+              0.5018792351086935,
+              0.4981207615799374
+            ],
+            "transfer_weights_std": [
+              0.004363185021146555,
+              0.004363184551139596
+            ],
+            "independence_p_mean": 0.005,
+            "independence_p_std": 0.0025819888974716113,
+            "semantic_distance_mean": 0.2517574172880914,
+            "semantic_distance_std": 0.09847006507778674
+          },
+          {
+            "transfer_weights_mean": [
+              0.5021821856498718,
+              0.49781781136989595
+            ],
+            "transfer_weights_std": [
+              0.004237883487011457,
+              0.004237882838452527
+            ],
+            "independence_p_mean": 0.0055,
+            "independence_p_std": 0.0028722813232690144,
+            "semantic_distance_mean": 0.23952873647212983,
+            "semantic_distance_std": 0.10038532609587301
+          },
+          {
+            "transfer_weights_mean": [
+              0.5016885887492787,
+              0.4983114085414193
+            ],
+            "transfer_weights_std": [
+              0.004331667047612711,
+              0.004331666779506145
+            ],
+            "independence_p_mean": 0.006,
+            "independence_p_std": 0.0031622776601683794,
+            "semantic_distance_mean": 0.23108142817562277,
+            "semantic_distance_std": 0.09945432501541385
+          },
+          {
+            "transfer_weights_mean": [
+              0.5016059478123983,
+              0.49839404970407486
+            ],
+            "transfer_weights_std": [
+              0.004156302751568094,
+              0.004156302544815094
+            ],
+            "independence_p_mean": 0.0065,
+            "independence_p_std": 0.0034520525295346632,
+            "semantic_distance_mean": 0.2311338142802318,
+            "semantic_distance_std": 0.09522498052044436
+          },
+          {
+            "transfer_weights_mean": [
+              0.50177879516895,
+              0.49822120483105
+            ],
+            "transfer_weights_std": [
+              0.0040378871027036845,
+              0.004037885630537066
+            ],
+            "independence_p_mean": 0.007,
+            "independence_p_std": 0.0037416573867739412,
+            "semantic_distance_mean": 0.22739272106152314,
+            "semantic_distance_std": 0.09249901285682545
+          },
+          {
+            "transfer_weights_mean": [
+              0.5020209125110081,
+              0.49797908536025454
+            ],
+            "transfer_weights_std": [
+              0.0039877303447803875,
+              0.003987730640799832
+            ],
+            "independence_p_mean": 0.0075,
+            "independence_p_std": 0.004031128874149275,
+            "semantic_distance_mean": 0.2261444590985775,
+            "semantic_distance_std": 0.08925425584470326
+          },
+          {
+            "transfer_weights_mean": [
+              0.5018157343069712,
+              0.4981842617193858
+            ],
+            "transfer_weights_std": [
+              0.003928260906762953,
+              0.003928259838170637
+            ],
+            "independence_p_mean": 0.008,
+            "independence_p_std": 0.004320493798938573,
+            "semantic_distance_mean": 0.2219969759384791,
+            "semantic_distance_std": 0.08762671770434649
+          },
+          {
+            "transfer_weights_mean": [
+              0.5015158392488956,
+              0.4984841588884592
+            ],
+            "transfer_weights_std": [
+              0.003976913040286317,
+              0.00397691443856876
+            ],
+            "independence_p_mean": 0.008499999999999999,
+            "independence_p_std": 0.004609772228646444,
+            "semantic_distance_mean": 0.22028183797374368,
+            "semantic_distance_std": 0.08510476895633866
+          },
+          {
+            "transfer_weights_mean": [
+              0.5014547986142776,
+              0.49854519963264465
+            ],
+            "transfer_weights_std": [
+              0.0038658904928670335,
+              0.0038658918743722896
+            ],
+            "independence_p_mean": 0.008999999999999998,
+            "independence_p_std": 0.004898979485566356,
+            "semantic_distance_mean": 0.22428207581534104,
+            "semantic_distance_std": 0.0841054514882225
+          },
+          {
+            "transfer_weights_mean": [
+              0.5016649663448334,
+              0.4983350286881129
+            ],
+            "transfer_weights_std": [
+              0.003855609358729258,
+              0.003855613645257353
+            ],
+            "independence_p_mean": 0.009499999999999998,
+            "independence_p_std": 0.0051881274720911265,
+            "semantic_distance_mean": 0.22396978570355308,
+            "semantic_distance_std": 0.0819030737206846
+          },
+          {
+            "transfer_weights_mean": [
+              0.5016060534276461,
+              0.49839394029818085
+            ],
+            "transfer_weights_std": [
+              0.00376108896442249,
+              0.0037610927588638027
+            ],
+            "independence_p_mean": 0.009999999999999997,
+            "independence_p_std": 0.005477225575051661,
+            "semantic_distance_mean": 0.22418815877876783,
+            "semantic_distance_std": 0.0797928885061868
+          },
+          {
+            "transfer_weights_mean": [
+              0.5016176283359528,
+              0.49838236570358274
+            ],
+            "transfer_weights_std": [
+              0.003666203251311836,
+              0.0036662069305074597
+            ],
+            "independence_p_mean": 0.010499999999999997,
+            "independence_p_std": 0.005766281297335398,
+            "semantic_distance_mean": 0.22486653327941894,
+            "semantic_distance_std": 0.077855680568723
+          }
+        ],
+        "final_performance": {
+          "mean_reward": -35.57009676249767,
+          "std_reward": 3307.1287911787717,
+          "max_reward": 4760.184924625231,
+          "min_reward": -8925.411086941214,
+          "final_independence_p": 0.02,
+          "total_episodes": 20,
+          "source_robots": [
+            "Centipede-4",
+            "Centipede-6"
+          ],
+          "target_robot": "Centipede-12",
+          "transfer_transfer_weights_mean": [
+            0.5016176283359528,
+            0.49838236570358274
+          ],
+          "transfer_transfer_weights_std": [
+            0.003666203251311836,
+            0.0036662069305074597
+          ],
+          "transfer_independence_p_mean": 0.010499999999999997,
+          "transfer_independence_p_std": 0.005766281297335398,
+          "transfer_semantic_distance_mean": 0.22486653327941894,
+          "transfer_semantic_distance_std": 0.077855680568723
+        },
+        "config": {
+          "device": "cpu",
+          "total_episodes": 20,
+          "batch_size": 64,
+          "learning_rate": 0.0003,
+          "max_episode_steps": 1000,
+          "hidden_dim": 256,
+          "ppo_epochs": 10,
+          "mini_batch_size": 64,
+          "clip_epsilon": 0.2,
+          "value_coef": 0.5,
+          "entropy_coef": 0.01,
+          "max_grad_norm": 0.5,
+          "buffer_size": 10000,
+          "gamma": 0.99,
+          "gae_lambda": 0.95,
+          "embedding_dim": 128,
+          "temperature": 1.0,
+          "min_weight": 0.01,
+          "initial_p": 0.0,
+          "final_p": 1.0,
+          "independence_steps": 1000000,
+          "num_seeds": 2,
+          "log_level": 20,
+          "environment_type": "centipede",
+          "experiment_id": "size_transfer_centipede_4_to_12",
+          "results_dir": "data/paper_results",
+          "source_robots": [
+            "Centipede-4",
+            "Centipede-6"
+          ],
+          "target_robot": "Centipede-12",
+          "transfer_type": "quad_to_biped",
+          "ablation_type": "no_attention",
+          "baseline_method": "PPO",
+          "observation_shape": [
+            10
+          ],
+          "action_shape": [
+            4
+          ],
+          "_extra_params": {}
+        },
+        "experiment_type": "size_transfer",
+        "scenario": "Centipede-4_Centipede-6_to_Centipede-12"
+      }
+    ],
+    "centipede_4_to_16": [
+      {
+        "training_curves": [
+          {
+            "episode": 0,
+            "reward": 2339.531664442527,
+            "policy_loss": -1.1336878716945649,
+            "value_loss": 111.20242080688476,
+            "entropy_loss": -45.2977180480957,
+            "total_loss": 54.01454544067383,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999999,
+            "approx_kl": -0.19533061981201172,
+            "clip_fraction": 0.5078125,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.0057523250579833984,
+            "semantic_distance_mean": 0.23604055494070053,
+            "independence_p": 0.001,
+            "transfer_strength": 0.999
+          },
+          {
+            "episode": 1,
+            "reward": 6682.3004722897385,
+            "policy_loss": -1.1006046414375306,
+            "value_loss": 446.98529357910155,
+            "entropy_loss": -45.14634323120117,
+            "total_loss": 221.94057922363282,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999998,
+            "approx_kl": -0.15396517515182495,
+            "clip_fraction": 0.49375,
+            "transfer_weights_mean": 0.4999999701976776,
+            "transfer_weights_std": 0.0008061230182647705,
+            "semantic_distance_mean": 0.12763480097055435,
+            "independence_p": 0.002,
+            "transfer_strength": 0.998
+          },
+          {
+            "episode": 2,
+            "reward": -184.32101466507828,
+            "policy_loss": -1.1175349354743958,
+            "value_loss": 307.0061981201172,
+            "entropy_loss": -44.77118682861328,
+            "total_loss": 151.93785247802734,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999997,
+            "approx_kl": -0.18567301630973815,
+            "clip_fraction": 0.6421875,
+            "transfer_weights_mean": 0.4999999850988388,
+            "transfer_weights_std": 0.003933742642402649,
+            "semantic_distance_mean": 0.172306627035141,
+            "independence_p": 0.003,
+            "transfer_strength": 0.997
+          },
+          {
+            "episode": 3,
+            "reward": 4270.634863470768,
+            "policy_loss": -1.060628318786621,
+            "value_loss": 296.5385681152344,
+            "entropy_loss": -44.75438766479492,
+            "total_loss": 146.7611114501953,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999996,
+            "approx_kl": -0.1161632001399994,
+            "clip_fraction": 0.6078125,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.003122985363006592,
+            "semantic_distance_mean": 0.1309688724577427,
+            "independence_p": 0.004,
+            "transfer_strength": 0.996
+          },
+          {
+            "episode": 4,
+            "reward": 6937.744869182507,
+            "policy_loss": -1.0976668834686278,
+            "value_loss": 267.92024993896484,
+            "entropy_loss": -44.794775772094724,
+            "total_loss": 132.41451263427734,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999950000000002,
+            "approx_kl": -0.1655160129070282,
+            "clip_fraction": 0.609375,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.007418572902679443,
+            "semantic_distance_mean": 0.24182172119617462,
+            "independence_p": 0.005,
+            "transfer_strength": 0.995
+          },
+          {
+            "episode": 5,
+            "reward": 1865.2870254809227,
+            "policy_loss": -1.0729916751384736,
+            "value_loss": 218.64276123046875,
+            "entropy_loss": -44.81856269836426,
+            "total_loss": 107.80020217895508,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999940000000002,
+            "approx_kl": -0.13670283555984497,
+            "clip_fraction": 0.628125,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.009220480918884277,
+            "semantic_distance_mean": 0.3610085994005203,
+            "independence_p": 0.006,
+            "transfer_strength": 0.994
+          },
+          {
+            "episode": 6,
+            "reward": 4038.65747238785,
+            "policy_loss": -1.0934881806373595,
+            "value_loss": 115.27372436523437,
+            "entropy_loss": -44.616576766967775,
+            "total_loss": 56.09720916748047,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999930000000002,
+            "approx_kl": -0.21130244731903075,
+            "clip_fraction": 0.7453125,
+            "transfer_weights_mean": 0.4999999850988388,
+            "transfer_weights_std": 0.0039034634828567505,
+            "semantic_distance_mean": 0.19844724982976913,
+            "independence_p": 0.007,
+            "transfer_strength": 0.993
+          },
+          {
+            "episode": 7,
+            "reward": -510.55237091875625,
+            "policy_loss": -1.0501084744930267,
+            "value_loss": 79.30152740478516,
+            "entropy_loss": -44.66979446411133,
+            "total_loss": 38.15395622253418,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999920000000002,
+            "approx_kl": -0.08800052404403687,
+            "clip_fraction": 0.6328125,
+            "transfer_weights_mean": 0.4999999701976776,
+            "transfer_weights_std": 0.0005193054676055908,
+            "semantic_distance_mean": 0.4008612334728241,
+            "independence_p": 0.008,
+            "transfer_strength": 0.992
+          },
+          {
+            "episode": 8,
+            "reward": -35.408401164951464,
+            "policy_loss": -1.0363837957382203,
+            "value_loss": 49.86789817810059,
+            "entropy_loss": -44.77109832763672,
+            "total_loss": 23.449853897094727,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999991,
+            "approx_kl": -0.11704341173171998,
+            "clip_fraction": 0.621875,
+            "transfer_weights_mean": 0.4999999701976776,
+            "transfer_weights_std": 0.004076510667800903,
+            "semantic_distance_mean": 0.43296287953853607,
+            "independence_p": 0.009,
+            "transfer_strength": 0.991
+          },
+          {
+            "episode": 9,
+            "reward": 1838.7479217101911,
+            "policy_loss": -1.0055350542068482,
+            "value_loss": 44.21602783203125,
+            "entropy_loss": -44.82805290222168,
+            "total_loss": 20.654198837280273,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.199999,
+            "approx_kl": -0.0360837459564209,
+            "clip_fraction": 0.6125,
+            "transfer_weights_mean": 0.4999999701976776,
+            "transfer_weights_std": 0.0006987154483795166,
+            "semantic_distance_mean": 0.271951861679554,
+            "independence_p": 0.01,
+            "transfer_strength": 0.99
+          },
+          {
+            "episode": 10,
+            "reward": -1602.5460436354895,
+            "policy_loss": -1.0475788056850432,
+            "value_loss": 29.103067779541014,
+            "entropy_loss": -44.82018623352051,
+            "total_loss": 13.055753421783447,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999989,
+            "approx_kl": -0.09701099395751953,
+            "clip_fraction": 0.6171875,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.0032089948654174805,
+            "semantic_distance_mean": 0.11360962688922882,
+            "independence_p": 0.011,
+            "transfer_strength": 0.989
+          },
+          {
+            "episode": 11,
+            "reward": 1843.8980874575777,
+            "policy_loss": -1.046995711326599,
+            "value_loss": 29.380812454223634,
+            "entropy_loss": -44.801856994628906,
+            "total_loss": 13.195392036437989,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999988,
+            "approx_kl": -0.1029079020023346,
+            "clip_fraction": 0.565625,
+            "transfer_weights_mean": 0.5000000149011612,
+            "transfer_weights_std": 0.016593560576438904,
+            "semantic_distance_mean": 0.3741423934698105,
+            "independence_p": 0.012,
+            "transfer_strength": 0.988
+          },
+          {
+            "episode": 12,
+            "reward": 2729.085244901701,
+            "policy_loss": -1.0447726786136626,
+            "value_loss": 20.17440414428711,
+            "entropy_loss": -44.7409969329834,
+            "total_loss": 8.595019435882568,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999987,
+            "approx_kl": -0.11831580400466919,
+            "clip_fraction": 0.6328125,
+            "transfer_weights_mean": 0.4999999850988388,
+            "transfer_weights_std": 0.0006063133478164673,
+            "semantic_distance_mean": 0.21868401765823364,
+            "independence_p": 0.013,
+            "transfer_strength": 0.987
+          },
+          {
+            "episode": 13,
+            "reward": 740.5897631566971,
+            "policy_loss": -1.0721026241779328,
+            "value_loss": 24.32804927825928,
+            "entropy_loss": -44.61561126708985,
+            "total_loss": 10.64576587677002,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999986,
+            "approx_kl": -0.14228992462158202,
+            "clip_fraction": 0.596875,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.005195736885070801,
+            "semantic_distance_mean": 0.1723988726735115,
+            "independence_p": 0.014,
+            "transfer_strength": 0.986
+          },
+          {
+            "episode": 14,
+            "reward": 2911.4498708595697,
+            "policy_loss": -1.0559186816215516,
+            "value_loss": 23.202041816711425,
+            "entropy_loss": -44.466769790649415,
+            "total_loss": 10.100434589385987,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999850000000002,
+            "approx_kl": -0.12578458189964295,
+            "clip_fraction": 0.634375,
+            "transfer_weights_mean": 0.4999999850988388,
+            "transfer_weights_std": 0.0001833587884902954,
+            "semantic_distance_mean": 0.30596068501472473,
+            "independence_p": 0.015,
+            "transfer_strength": 0.985
+          },
+          {
+            "episode": 15,
+            "reward": 2020.9549509662545,
+            "policy_loss": -1.0731758415699004,
+            "value_loss": 13.727873802185059,
+            "entropy_loss": -44.51598472595215,
+            "total_loss": 5.345601296424865,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999840000000002,
+            "approx_kl": -0.16575427055358888,
+            "clip_fraction": 0.7375,
+            "transfer_weights_mean": 0.4999999850988388,
+            "transfer_weights_std": 0.004318013787269592,
+            "semantic_distance_mean": 0.15529365092515945,
+            "independence_p": 0.016,
+            "transfer_strength": 0.984
+          },
+          {
+            "episode": 16,
+            "reward": 2064.072660627984,
+            "policy_loss": -1.0548703253269196,
+            "value_loss": 22.167434310913087,
+            "entropy_loss": -44.545067977905276,
+            "total_loss": 9.58339614868164,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999830000000002,
+            "approx_kl": -0.11474466323852539,
+            "clip_fraction": 0.6578125,
+            "transfer_weights_mean": 0.4999999701976776,
+            "transfer_weights_std": 0.006149083375930786,
+            "semantic_distance_mean": 0.13406702876091003,
+            "independence_p": 0.017,
+            "transfer_strength": 0.983
+          },
+          {
+            "episode": 17,
+            "reward": -1880.9881226357438,
+            "policy_loss": -1.0526851654052733,
+            "value_loss": 42.65557994842529,
+            "entropy_loss": -44.54591522216797,
+            "total_loss": 19.829645538330077,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999820000000001,
+            "approx_kl": -0.11893742084503174,
+            "clip_fraction": 0.646875,
+            "transfer_weights_mean": 0.4999999850988388,
+            "transfer_weights_std": 0.0018005520105361938,
+            "semantic_distance_mean": 0.18149621784687042,
+            "independence_p": 0.018,
+            "transfer_strength": 0.982
+          },
+          {
+            "episode": 18,
+            "reward": 5021.8038692330965,
+            "policy_loss": -1.0664198577404023,
+            "value_loss": 24.11040096282959,
+            "entropy_loss": -44.61948661804199,
+            "total_loss": 10.542585849761963,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999981,
+            "approx_kl": -0.144493567943573,
+            "clip_fraction": 0.65625,
+            "transfer_weights_mean": 0.4999999850988388,
+            "transfer_weights_std": 0.0021351128816604614,
+            "semantic_distance_mean": 0.24402200430631638,
+            "independence_p": 0.019,
+            "transfer_strength": 0.981
+          },
+          {
+            "episode": 19,
+            "reward": 2254.2028439155865,
+            "policy_loss": -1.0605865955352782,
+            "value_loss": 8.056063222885133,
+            "entropy_loss": -44.59982147216797,
+            "total_loss": 2.5214468359947206,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.199998,
+            "approx_kl": -0.12586202025413512,
+            "clip_fraction": 0.60625,
+            "transfer_weights_mean": 0.5000000149011612,
+            "transfer_weights_std": 0.0045156329870224,
+            "semantic_distance_mean": 0.21651219576597214,
+            "independence_p": 0.02,
+            "transfer_strength": 0.98
+          }
+        ],
+        "transfer_statistics": [
+          {
+            "transfer_weights_mean": [
+              0.4942476749420166,
+              0.5057523250579834
+            ],
+            "transfer_weights_std": [
+              0.0,
+              0.0
+            ],
+            "independence_p_mean": 0.001,
+            "independence_p_std": 0.0,
+            "semantic_distance_mean": 0.23604055494070053,
+            "semantic_distance_std": 0.017131365835666656
+          },
+          {
+            "transfer_weights_mean": [
+              0.4967207610607147,
+              0.5032792091369629
+            ],
+            "transfer_weights_std": [
+              0.00247308611869812,
+              0.002473115921020508
+            ],
+            "independence_p_mean": 0.0015,
+            "independence_p_std": 0.0005,
+            "semantic_distance_mean": 0.18183767795562744,
+            "semantic_distance_std": 0.05630507606042656
+          },
+          {
+            "transfer_weights_mean": [
+              0.49912508328755695,
+              0.5008748869101206
+            ],
+            "transfer_weights_std": [
+              0.003954613429229232,
+              0.003954625854217486
+            ],
+            "independence_p_mean": 0.002,
+            "independence_p_std": 0.000816496580927726,
+            "semantic_distance_mean": 0.17866066098213196,
+            "semantic_distance_std": 0.04622755272893052
+          },
+          {
+            "transfer_weights_mean": [
+              0.4985630661249161,
+              0.5014369115233421
+            ],
+            "transfer_weights_std": [
+              0.0035604515730857634,
+              0.003560465451697898
+            ],
+            "independence_p_mean": 0.0025,
+            "independence_p_std": 0.001118033988749895,
+            "semantic_distance_mean": 0.16673771385103464,
+            "semantic_distance_std": 0.045316367848875036
+          },
+          {
+            "transfer_weights_mean": [
+              0.5003341674804688,
+              0.4996658146381378
+            ],
+            "transfer_weights_std": [
+              0.004763260686755783,
+              0.004763262337233712
+            ],
+            "independence_p_mean": 0.003,
+            "independence_p_std": 0.001414213562373095,
+            "semantic_distance_mean": 0.18175451532006265,
+            "semantic_distance_std": 0.0506741124686354
+          },
+          {
+            "transfer_weights_mean": [
+              0.4987417260805766,
+              0.5012582590182623
+            ],
+            "transfer_weights_std": [
+              0.00562019202241172,
+              0.005620197410237477
+            ],
+            "independence_p_mean": 0.0034999999999999996,
+            "independence_p_std": 0.0017078251276599332,
+            "semantic_distance_mean": 0.2116301960001389,
+            "semantic_distance_std": 0.08145745736437039
+          },
+          {
+            "transfer_weights_mean": [
+              0.49836383972849163,
+              0.5016361432416099
+            ],
+            "transfer_weights_std": [
+              0.005284976959086798,
+              0.00528498095689165
+            ],
+            "independence_p_mean": 0.003999999999999999,
+            "independence_p_std": 0.002,
+            "semantic_distance_mean": 0.2097469179758004,
+            "semantic_distance_std": 0.07559855707893597
+          },
+          {
+            "transfer_weights_mean": [
+              0.4986332692205906,
+              0.5013667084276676
+            ],
+            "transfer_weights_std": [
+              0.004994772720986153,
+              0.0049947784318343435
+            ],
+            "independence_p_mean": 0.0045,
+            "independence_p_std": 0.0022912878474779202,
+            "semantic_distance_mean": 0.23363620741292834,
+            "semantic_distance_std": 0.09569851304855673
+          },
+          {
+            "transfer_weights_mean": [
+              0.4983321792549557,
+              0.501667794254091
+            ],
+            "transfer_weights_std": [
+              0.004785501347562379,
+              0.0047855045624585245
+            ],
+            "independence_p_mean": 0.005,
+            "independence_p_std": 0.0025819888974716113,
+            "semantic_distance_mean": 0.25578361542688477,
+            "semantic_distance_std": 0.1106774755084368
+          },
+          {
+            "transfer_weights_mean": [
+              0.49856882989406587,
+              0.5014311403036118
+            ],
+            "transfer_weights_std": [
+              0.004595100930087429,
+              0.004595105478231956
+            ],
+            "independence_p_mean": 0.0055,
+            "independence_p_std": 0.0028722813232690144,
+            "semantic_distance_mean": 0.2574004400521517,
+            "semantic_distance_std": 0.10539650348429964
+          },
+          {
+            "transfer_weights_mean": [
+              0.49840720946138556,
+              0.5015927634455941
+            ],
+            "transfer_weights_std": [
+              0.004410966227333851,
+              0.004410971527323452
+            ],
+            "independence_p_mean": 0.006,
+            "independence_p_std": 0.0031622776601683794,
+            "semantic_distance_mean": 0.2443285479464314,
+            "semantic_distance_std": 0.10870826987559029
+          },
+          {
+            "transfer_weights_mean": [
+              0.49715714653333026,
+              0.5028428311149279
+            ],
+            "transfer_weights_std": [
+              0.005918147376406671,
+              0.005918162013722753
+            ],
+            "independence_p_mean": 0.0065,
+            "independence_p_std": 0.0034520525295346632,
+            "semantic_distance_mean": 0.255146368406713,
+            "semantic_distance_std": 0.11030070466836325
+          },
+          {
+            "transfer_weights_mean": [
+              0.4973291869346912,
+              0.5026707901404455
+            ],
+            "transfer_weights_std": [
+              0.0057171193175187375,
+              0.005717133510938116
+            ],
+            "independence_p_mean": 0.007,
+            "independence_p_std": 0.0037416573867739412,
+            "semantic_distance_mean": 0.2523415721952915,
+            "semantic_distance_std": 0.10680021494075903
+          },
+          {
+            "transfer_weights_mean": [
+              0.4978910833597183,
+              0.5021088953529086
+            ],
+            "transfer_weights_std": [
+              0.005869858325177014,
+              0.005869869124095359
+            ],
+            "independence_p_mean": 0.0075,
+            "independence_p_std": 0.004031128874149275,
+            "semantic_distance_mean": 0.24663137937230722,
+            "semantic_distance_std": 0.10496812953482147
+          },
+          {
+            "transfer_weights_mean": [
+              0.4980439007282257,
+              0.5019560774167379
+            ],
+            "transfer_weights_std": [
+              0.005699575865575602,
+              0.005699586458772598
+            ],
+            "independence_p_mean": 0.008,
+            "independence_p_std": 0.004320493798938573,
+            "semantic_distance_mean": 0.25058666641513505,
+            "semantic_distance_std": 0.10266057273090476
+          },
+          {
+            "transfer_weights_mean": [
+              0.4978962801396847,
+              0.5021036975085735
+            ],
+            "transfer_weights_std": [
+              0.0055481275944596065,
+              0.005548137598434585
+            ],
+            "independence_p_mean": 0.008499999999999999,
+            "independence_p_std": 0.004609772228646444,
+            "semantic_distance_mean": 0.2446308529470116,
+            "semantic_distance_std": 0.10213781069452854
+          },
+          {
+            "transfer_weights_mean": [
+              0.49838173740050373,
+              0.5016182380564073
+            ],
+            "transfer_weights_std": [
+              0.0057220390104800855,
+              0.0057220511144393275
+            ],
+            "independence_p_mean": 0.008999999999999998,
+            "independence_p_std": 0.004898979485566356,
+            "semantic_distance_mean": 0.23812709858312325,
+            "semantic_distance_std": 0.10253676613577789
+          },
+          {
+            "transfer_weights_mean": [
+              0.49857167071766323,
+              0.5014283044470681
+            ],
+            "transfer_weights_std": [
+              0.005615693609661723,
+              0.0056157054256545935
+            ],
+            "independence_p_mean": 0.009499999999999998,
+            "independence_p_std": 0.0051881274720911265,
+            "semantic_distance_mean": 0.23498093854222032,
+            "semantic_distance_std": 0.10048918126877897
+          },
+          {
+            "transfer_weights_mean": [
+              0.4985344707965851,
+              0.5014655041067224
+            ],
+            "transfer_weights_std": [
+              0.0054681928901245775,
+              0.005468204354164107
+            ],
+            "independence_p_mean": 0.009999999999999997,
+            "independence_p_std": 0.005477225575051661,
+            "semantic_distance_mean": 0.2354567841087517,
+            "semantic_distance_std": 0.09786451905896873
+          },
+          {
+            "transfer_weights_mean": [
+              0.498833529651165,
+              0.5011664479970932
+            ],
+            "transfer_weights_std": [
+              0.005486835570798437,
+              0.00548684358200401
+            ],
+            "independence_p_mean": 0.010499999999999997,
+            "independence_p_std": 0.005766281297335398,
+            "semantic_distance_mean": 0.23450955469161272,
+            "semantic_distance_std": 0.0954767163957378
+          }
+        ],
+        "final_performance": {
+          "mean_reward": 2167.2572813531474,
+          "std_reward": 2352.103065240362,
+          "max_reward": 6937.744869182507,
+          "min_reward": -1880.9881226357438,
+          "final_independence_p": 0.02,
+          "total_episodes": 20,
+          "source_robots": [
+            "Centipede-4",
+            "Centipede-6"
+          ],
+          "target_robot": "Centipede-16",
+          "transfer_transfer_weights_mean": [
+            0.498833529651165,
+            0.5011664479970932
+          ],
+          "transfer_transfer_weights_std": [
+            0.005486835570798437,
+            0.00548684358200401
+          ],
+          "transfer_independence_p_mean": 0.010499999999999997,
+          "transfer_independence_p_std": 0.005766281297335398,
+          "transfer_semantic_distance_mean": 0.23450955469161272,
+          "transfer_semantic_distance_std": 0.0954767163957378
+        },
+        "config": {
+          "device": "cpu",
+          "total_episodes": 20,
+          "batch_size": 64,
+          "learning_rate": 0.0003,
+          "max_episode_steps": 1000,
+          "hidden_dim": 256,
+          "ppo_epochs": 10,
+          "mini_batch_size": 64,
+          "clip_epsilon": 0.2,
+          "value_coef": 0.5,
+          "entropy_coef": 0.01,
+          "max_grad_norm": 0.5,
+          "buffer_size": 10000,
+          "gamma": 0.99,
+          "gae_lambda": 0.95,
+          "embedding_dim": 128,
+          "temperature": 1.0,
+          "min_weight": 0.01,
+          "initial_p": 0.0,
+          "final_p": 1.0,
+          "independence_steps": 1000000,
+          "num_seeds": 2,
+          "log_level": 20,
+          "environment_type": "centipede",
+          "experiment_id": "size_transfer_centipede_4_to_16",
+          "results_dir": "data/paper_results",
+          "source_robots": [
+            "Centipede-4",
+            "Centipede-6"
+          ],
+          "target_robot": "Centipede-16",
+          "transfer_type": "quad_to_biped",
+          "ablation_type": "no_attention",
+          "baseline_method": "PPO",
+          "observation_shape": [
+            10
+          ],
+          "action_shape": [
+            4
+          ],
+          "_extra_params": {}
+        },
+        "experiment_type": "size_transfer",
+        "scenario": "Centipede-4_Centipede-6_to_Centipede-16"
+      }
+    ],
+    "centipede_4_to_20": [
+      {
+        "training_curves": [
+          {
+            "episode": 0,
+            "reward": 944.9645679126305,
+            "policy_loss": -1.1586821258068085,
+            "value_loss": 40.31352195739746,
+            "entropy_loss": -56.43834190368652,
+            "total_loss": 18.43369541168213,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999999,
+            "approx_kl": -0.2806155502796173,
+            "clip_fraction": 0.6984375,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.008881747722625732,
+            "semantic_distance_mean": 0.22158190608024597,
+            "independence_p": 0.001,
+            "transfer_strength": 0.999
+          },
+          {
+            "episode": 1,
+            "reward": 2540.9433348436855,
+            "policy_loss": -1.0787024259567262,
+            "value_loss": 58.65807342529297,
+            "entropy_loss": -56.27475357055664,
+            "total_loss": 27.687586784362793,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999998,
+            "approx_kl": -0.1355873763561249,
+            "clip_fraction": 0.509375,
+            "transfer_weights_mean": 0.4999999701976776,
+            "transfer_weights_std": 0.0010233819484710693,
+            "semantic_distance_mean": 0.2516130059957504,
+            "independence_p": 0.002,
+            "transfer_strength": 0.998
+          },
+          {
+            "episode": 2,
+            "reward": 4970.49466914935,
+            "policy_loss": -1.0916756510734558,
+            "value_loss": 240.86513977050782,
+            "entropy_loss": -56.428277587890626,
+            "total_loss": 118.77661056518555,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999997,
+            "approx_kl": -0.15540434122085572,
+            "clip_fraction": 0.5515625,
+            "transfer_weights_mean": 0.4999999850988388,
+            "transfer_weights_std": 0.004776790738105774,
+            "semantic_distance_mean": 0.1991027444601059,
+            "independence_p": 0.003,
+            "transfer_strength": 0.997
+          },
+          {
+            "episode": 3,
+            "reward": 3273.9090632365287,
+            "policy_loss": -1.074633914232254,
+            "value_loss": 186.717431640625,
+            "entropy_loss": -56.48470916748047,
+            "total_loss": 91.71923522949218,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999996,
+            "approx_kl": -0.12476249933242797,
+            "clip_fraction": 0.5828125,
+            "transfer_weights_mean": 0.4999999850988388,
+            "transfer_weights_std": 0.0013049989938735962,
+            "semantic_distance_mean": 0.11764266341924667,
+            "independence_p": 0.004,
+            "transfer_strength": 0.996
+          },
+          {
+            "episode": 4,
+            "reward": 3955.2834901674264,
+            "policy_loss": -1.082275915145874,
+            "value_loss": 145.50564575195312,
+            "entropy_loss": -56.393743896484374,
+            "total_loss": 71.10661010742187,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999950000000002,
+            "approx_kl": -0.1752480685710907,
+            "clip_fraction": 0.6515625,
+            "transfer_weights_mean": 0.4999999850988388,
+            "transfer_weights_std": 0.0004130154848098755,
+            "semantic_distance_mean": 0.16745948791503906,
+            "independence_p": 0.005,
+            "transfer_strength": 0.995
+          },
+          {
+            "episode": 5,
+            "reward": 3564.4741239679984,
+            "policy_loss": -1.069886177778244,
+            "value_loss": 114.52395782470703,
+            "entropy_loss": -56.286811447143556,
+            "total_loss": 55.62922592163086,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999940000000002,
+            "approx_kl": -0.14332155585289003,
+            "clip_fraction": 0.6203125,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.0021473169326782227,
+            "semantic_distance_mean": 0.186202272772789,
+            "independence_p": 0.006,
+            "transfer_strength": 0.994
+          },
+          {
+            "episode": 6,
+            "reward": 2988.268775740385,
+            "policy_loss": -1.0340390622615814,
+            "value_loss": 119.09353179931641,
+            "entropy_loss": -56.01314697265625,
+            "total_loss": 57.95259552001953,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999930000000002,
+            "approx_kl": -0.09888366460800171,
+            "clip_fraction": 0.6796875,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.006370186805725098,
+            "semantic_distance_mean": 0.17806510627269745,
+            "independence_p": 0.007,
+            "transfer_strength": 0.993
+          },
+          {
+            "episode": 7,
+            "reward": 1595.0940425035283,
+            "policy_loss": -1.0504645466804505,
+            "value_loss": 50.34057769775391,
+            "entropy_loss": -56.17957649230957,
+            "total_loss": 23.55802822113037,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999920000000002,
+            "approx_kl": -0.1086348533630371,
+            "clip_fraction": 0.6171875,
+            "transfer_weights_mean": 0.5000000298023224,
+            "transfer_weights_std": 0.006321936845779419,
+            "semantic_distance_mean": 0.32558977603912354,
+            "independence_p": 0.008,
+            "transfer_strength": 0.992
+          },
+          {
+            "episode": 8,
+            "reward": 1762.455113730178,
+            "policy_loss": -1.0640697062015534,
+            "value_loss": 47.29508476257324,
+            "entropy_loss": -56.24683265686035,
+            "total_loss": 22.021004104614256,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999991,
+            "approx_kl": -0.13440454602241517,
+            "clip_fraction": 0.6578125,
+            "transfer_weights_mean": 0.4999999850988388,
+            "transfer_weights_std": 0.0025541335344314575,
+            "semantic_distance_mean": 0.31189151108264923,
+            "independence_p": 0.009,
+            "transfer_strength": 0.991
+          },
+          {
+            "episode": 9,
+            "reward": -144.29524658915113,
+            "policy_loss": -1.0744684636592865,
+            "value_loss": 38.64809284210205,
+            "entropy_loss": -56.35616455078125,
+            "total_loss": 17.686016368865968,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.199999,
+            "approx_kl": -0.15968376398086548,
+            "clip_fraction": 0.6453125,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.0021222829818725586,
+            "semantic_distance_mean": 0.1392342895269394,
+            "independence_p": 0.01,
+            "transfer_strength": 0.99
+          },
+          {
+            "episode": 10,
+            "reward": -533.5073123223833,
+            "policy_loss": -1.0557666540145874,
+            "value_loss": 32.62113094329834,
+            "entropy_loss": -56.47021560668945,
+            "total_loss": 14.690096664428712,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999989,
+            "approx_kl": -0.15304641127586366,
+            "clip_fraction": 0.621875,
+            "transfer_weights_mean": 0.4999999701976776,
+            "transfer_weights_std": 0.006166309118270874,
+            "semantic_distance_mean": 0.23320846259593964,
+            "independence_p": 0.011,
+            "transfer_strength": 0.989
+          },
+          {
+            "episode": 11,
+            "reward": 4705.778865542539,
+            "policy_loss": -1.0610478520393372,
+            "value_loss": 23.458970642089845,
+            "entropy_loss": -56.395978164672854,
+            "total_loss": 10.104477739334106,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999988,
+            "approx_kl": -0.1348266303539276,
+            "clip_fraction": 0.640625,
+            "transfer_weights_mean": 0.4999999850988388,
+            "transfer_weights_std": 0.0048925429582595825,
+            "semantic_distance_mean": 0.270956888794899,
+            "independence_p": 0.012,
+            "transfer_strength": 0.988
+          },
+          {
+            "episode": 12,
+            "reward": 720.4004791199883,
+            "policy_loss": -1.0555111467838287,
+            "value_loss": 24.577553939819335,
+            "entropy_loss": -56.260097122192384,
+            "total_loss": 10.67066502571106,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999987,
+            "approx_kl": -0.11125704646110535,
+            "clip_fraction": 0.5859375,
+            "transfer_weights_mean": 0.4999999701976776,
+            "transfer_weights_std": 0.0024963319301605225,
+            "semantic_distance_mean": 0.3085692673921585,
+            "independence_p": 0.013,
+            "transfer_strength": 0.987
+          },
+          {
+            "episode": 13,
+            "reward": 4375.473605517595,
+            "policy_loss": -1.0710921168327332,
+            "value_loss": 18.577109622955323,
+            "entropy_loss": -56.05947761535644,
+            "total_loss": 7.656867980957031,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999986,
+            "approx_kl": -0.17931240200996398,
+            "clip_fraction": 0.63125,
+            "transfer_weights_mean": 0.4999999701976776,
+            "transfer_weights_std": 0.00584074854850769,
+            "semantic_distance_mean": 0.20574330538511276,
+            "independence_p": 0.014,
+            "transfer_strength": 0.986
+          },
+          {
+            "episode": 14,
+            "reward": 2668.3956137892355,
+            "policy_loss": -1.0425575911998748,
+            "value_loss": 10.813898086547852,
+            "entropy_loss": -55.93353042602539,
+            "total_loss": 3.805056166648865,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999850000000002,
+            "approx_kl": -0.11752457618713379,
+            "clip_fraction": 0.665625,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.005386173725128174,
+            "semantic_distance_mean": 0.2137393355369568,
+            "independence_p": 0.015,
+            "transfer_strength": 0.985
+          },
+          {
+            "episode": 15,
+            "reward": 692.9008406159284,
+            "policy_loss": -1.044924360513687,
+            "value_loss": 20.065827941894533,
+            "entropy_loss": -55.84390869140625,
+            "total_loss": 8.429550552368164,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999840000000002,
+            "approx_kl": -0.10998521447181701,
+            "clip_fraction": 0.6609375,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.0018279552459716797,
+            "semantic_distance_mean": 0.21348626911640167,
+            "independence_p": 0.016,
+            "transfer_strength": 0.984
+          },
+          {
+            "episode": 16,
+            "reward": -171.62754620500834,
+            "policy_loss": -1.0063465356826782,
+            "value_loss": 26.61673583984375,
+            "entropy_loss": -55.989963150024415,
+            "total_loss": 11.742121696472168,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999830000000002,
+            "approx_kl": -0.031252145767211914,
+            "clip_fraction": 0.6296875,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.0010935068130493164,
+            "semantic_distance_mean": 0.15050700306892395,
+            "independence_p": 0.017,
+            "transfer_strength": 0.983
+          },
+          {
+            "episode": 17,
+            "reward": 1255.579218428459,
+            "policy_loss": -1.0293397724628448,
+            "value_loss": 15.52702293395996,
+            "entropy_loss": -56.07473258972168,
+            "total_loss": 6.173424434661865,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.19999820000000001,
+            "approx_kl": -0.07769373655319214,
+            "clip_fraction": 0.5421875,
+            "transfer_weights_mean": 0.5000000149011612,
+            "transfer_weights_std": 0.007065579295158386,
+            "semantic_distance_mean": 0.14719948917627335,
+            "independence_p": 0.018,
+            "transfer_strength": 0.982
+          },
+          {
+            "episode": 18,
+            "reward": -703.7428029356669,
+            "policy_loss": -1.0450539588928223,
+            "value_loss": 18.35339937210083,
+            "entropy_loss": -56.130567169189455,
+            "total_loss": 7.57034010887146,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.1999981,
+            "approx_kl": -0.11203289031982422,
+            "clip_fraction": 0.60625,
+            "transfer_weights_mean": 0.5,
+            "transfer_weights_std": 0.003467738628387451,
+            "semantic_distance_mean": 0.2557438611984253,
+            "independence_p": 0.019,
+            "transfer_strength": 0.981
+          },
+          {
+            "episode": 19,
+            "reward": 126.72936758054402,
+            "policy_loss": -1.035146176815033,
+            "value_loss": 12.251221752166748,
+            "entropy_loss": -56.21262893676758,
+            "total_loss": 4.5283384084701535,
+            "policy_lr": 0.0003,
+            "value_lr": 0.0003,
+            "clip_epsilon": 0.199998,
+            "approx_kl": -0.08509246110916138,
+            "clip_fraction": 0.575,
+            "transfer_weights_mean": 0.4999999850988388,
+            "transfer_weights_std": 0.0002916604280471802,
+            "semantic_distance_mean": 0.22118186205625534,
+            "independence_p": 0.02,
+            "transfer_strength": 0.98
+          }
+        ],
+        "transfer_statistics": [
+          {
+            "transfer_weights_mean": [
+              0.5088817477226257,
+              0.49111825227737427
+            ],
+            "transfer_weights_std": [
+              0.0,
+              0.0
+            ],
+            "independence_p_mean": 0.001,
+            "independence_p_std": 0.0,
+            "semantic_distance_mean": 0.22158190608024597,
+            "semantic_distance_std": 0.00016148388385772705
+          },
+          {
+            "transfer_weights_mean": [
+              0.5039291679859161,
+              0.4960708022117615
+            ],
+            "transfer_weights_std": [
+              0.004952579736709595,
+              0.004952549934387207
+            ],
+            "independence_p_mean": 0.0015,
+            "independence_p_std": 0.0005,
+            "semantic_distance_mean": 0.2365974560379982,
+            "semantic_distance_std": 0.016672935215026094
+          },
+          {
+            "transfer_weights_mean": [
+              0.5042117039362589,
+              0.49578826626141864
+            ],
+            "transfer_weights_std": [
+              0.004063457127305502,
+              0.004063432911739127
+            ],
+            "independence_p_mean": 0.002,
+            "independence_p_std": 0.000816496580927726,
+            "semantic_distance_mean": 0.22409921884536743,
+            "semantic_distance_std": 0.023292986751652076
+          },
+          {
+            "transfer_weights_mean": [
+              0.5034850239753723,
+              0.4965149462223053
+            ],
+            "transfer_weights_std": [
+              0.0037373726286992082,
+              0.0037373528824311136
+            ],
+            "independence_p_mean": 0.0025,
+            "independence_p_std": 0.001118033988749895,
+            "semantic_distance_mean": 0.19748507998883724,
+            "semantic_distance_std": 0.05035778934336659
+          },
+          {
+            "transfer_weights_mean": [
+              0.5028706192970276,
+              0.49712935090065
+            ],
+            "transfer_weights_std": [
+              0.003561507513355485,
+              0.003561490936299076
+            ],
+            "independence_p_mean": 0.003,
+            "independence_p_std": 0.001414213562373095,
+            "semantic_distance_mean": 0.1914799615740776,
+            "semantic_distance_std": 0.04683519913838487
+          },
+          {
+            "transfer_weights_mean": [
+              0.5020342965920767,
+              0.4979656785726547
+            ],
+            "transfer_weights_std": [
+              0.003750661027137594,
+              0.003750653447412561
+            ],
+            "independence_p_mean": 0.0034999999999999996,
+            "independence_p_std": 0.0017078251276599332,
+            "semantic_distance_mean": 0.19060034677386284,
+            "semantic_distance_std": 0.042850524967886466
+          },
+          {
+            "transfer_weights_mean": [
+              0.5008336561066764,
+              0.4991663226059505
+            ],
+            "transfer_weights_std": [
+              0.004550499611511791,
+              0.004550499873207855
+            ],
+            "independence_p_mean": 0.003999999999999999,
+            "independence_p_std": 0.002,
+            "semantic_distance_mean": 0.18880959813083922,
+            "semantic_distance_std": 0.03991364987281558
+          },
+          {
+            "transfer_weights_mean": [
+              0.4999392107129097,
+              0.5000607781112194
+            ],
+            "transfer_weights_std": [
+              0.0048702046991975405,
+              0.004870217912516616
+            ],
+            "independence_p_mean": 0.0045,
+            "independence_p_std": 0.0022912878474779202,
+            "semantic_distance_mean": 0.20590712036937475,
+            "semantic_distance_std": 0.05991230232678624
+          },
+          {
+            "transfer_weights_mean": [
+              0.5002297560373942,
+              0.49977023071712917
+            ],
+            "transfer_weights_std": [
+              0.0046646322310485485,
+              0.004664645525111569
+            ],
+            "independence_p_mean": 0.005,
+            "independence_p_std": 0.0025819888974716113,
+            "semantic_distance_mean": 0.21768316378196081,
+            "semantic_distance_std": 0.06569807531891778
+          },
+          {
+            "transfer_weights_mean": [
+              0.5004190087318421,
+              0.499580979347229
+            ],
+            "transfer_weights_std": [
+              0.004461531542760305,
+              0.004461543546412035
+            ],
+            "independence_p_mean": 0.0055,
+            "independence_p_std": 0.0028722813232690144,
+            "semantic_distance_mean": 0.20983827635645866,
+            "semantic_distance_std": 0.0666286864789582
+          },
+          {
+            "transfer_weights_mean": [
+              0.5009414878758517,
+              0.49905849586833606
+            ],
+            "transfer_weights_std": [
+              0.004563500721856281,
+              0.004563516353487991
+            ],
+            "independence_p_mean": 0.006,
+            "independence_p_std": 0.0031622776601683794,
+            "semantic_distance_mean": 0.21196283874186603,
+            "semantic_distance_std": 0.06391434173264655
+          },
+          {
+            "transfer_weights_mean": [
+              0.5012707412242889,
+              0.498729241391023
+            ],
+            "transfer_weights_std": [
+              0.0045036166256183395,
+              0.004503632052981686
+            ],
+            "independence_p_mean": 0.0065,
+            "independence_p_std": 0.0034520525295346632,
+            "semantic_distance_mean": 0.21687900957961878,
+            "semantic_distance_std": 0.06395263767524581
+          },
+          {
+            "transfer_weights_mean": [
+              0.500980964073768,
+              0.49901901529385495
+            ],
+            "transfer_weights_std": [
+              0.004441848167433652,
+              0.004441860063658975
+            ],
+            "independence_p_mean": 0.007,
+            "independence_p_std": 0.0037416573867739412,
+            "semantic_distance_mean": 0.22393210633442953,
+            "semantic_distance_std": 0.06637058380357974
+          },
+          {
+            "transfer_weights_mean": [
+              0.5013280894075122,
+              0.49867188717637745
+            ],
+            "transfer_weights_std": [
+              0.004459504043264087,
+              0.004459517862924381
+            ],
+            "independence_p_mean": 0.0075,
+            "independence_p_std": 0.004031128874149275,
+            "semantic_distance_mean": 0.2226329062666212,
+            "semantic_distance_std": 0.06417927263834644
+          },
+          {
+            "transfer_weights_mean": [
+              0.5008804718653361,
+              0.4991195062796275
+            ],
+            "transfer_weights_std": [
+              0.0046223830493214895,
+              0.004622397609547109
+            ],
+            "independence_p_mean": 0.008,
+            "independence_p_std": 0.004320493798938573,
+            "semantic_distance_mean": 0.22204000155131023,
+            "semantic_distance_std": 0.06207068120908081
+          },
+          {
+            "transfer_weights_mean": [
+              0.5007111951708794,
+              0.499288784340024
+            ],
+            "transfer_weights_std": [
+              0.004523366277235539,
+              0.004523380993010011
+            ],
+            "independence_p_mean": 0.008499999999999999,
+            "independence_p_std": 0.004609772228646444,
+            "semantic_distance_mean": 0.22150539327412844,
+            "semantic_distance_std": 0.06013605079140636
+          },
+          {
+            "transfer_weights_mean": [
+              0.5006050362306482,
+              0.4993949444854961
+            ],
+            "transfer_weights_std": [
+              0.004408806985817315,
+              0.004408821660176849
+            ],
+            "independence_p_mean": 0.008999999999999998,
+            "independence_p_std": 0.004898979485566356,
+            "semantic_distance_mean": 0.21732901737970464,
+            "semantic_distance_std": 0.06071047264179446
+          },
+          {
+            "transfer_weights_mean": [
+              0.50096395611763,
+              0.4990360273255242
+            ],
+            "transfer_weights_std": [
+              0.004532958502531934,
+              0.004532968311371503
+            ],
+            "independence_p_mean": 0.009499999999999998,
+            "independence_p_std": 0.0051881274720911265,
+            "semantic_distance_mean": 0.213432932479514,
+            "semantic_distance_std": 0.06125161679521774
+          },
+          {
+            "transfer_weights_mean": [
+              0.501095734144512,
+              0.4989042501700552
+            ],
+            "transfer_weights_std": [
+              0.004447339911525727,
+              0.00444734891823958
+            ],
+            "independence_p_mean": 0.009999999999999997,
+            "independence_p_std": 0.005477225575051661,
+            "semantic_distance_mean": 0.21565982346471987,
+            "semantic_distance_std": 0.060363814284543536
+          },
+          {
+            "transfer_weights_mean": [
+              0.5010555297136307,
+              0.498944453895092
+            ],
+            "transfer_weights_std": [
+              0.004338271799138971,
+              0.004338280446348336
+            ],
+            "independence_p_mean": 0.010499999999999997,
+            "independence_p_std": 0.005766281297335398,
+            "semantic_distance_mean": 0.21593592539429665,
+            "semantic_distance_std": 0.058870353221021854
+          }
+        ],
+        "final_performance": {
+          "mean_reward": 1929.3986131896895,
+          "std_reward": 1775.9980783463607,
+          "max_reward": 4970.49466914935,
+          "min_reward": -703.7428029356669,
+          "final_independence_p": 0.02,
+          "total_episodes": 20,
+          "source_robots": [
+            "Centipede-4",
+            "Centipede-6"
+          ],
+          "target_robot": "Centipede-20",
+          "transfer_transfer_weights_mean": [
+            0.5010555297136307,
+            0.498944453895092
+          ],
+          "transfer_transfer_weights_std": [
+            0.004338271799138971,
+            0.004338280446348336
+          ],
+          "transfer_independence_p_mean": 0.010499999999999997,
+          "transfer_independence_p_std": 0.005766281297335398,
+          "transfer_semantic_distance_mean": 0.21593592539429665,
+          "transfer_semantic_distance_std": 0.058870353221021854
+        },
+        "config": {
+          "device": "cpu",
+          "total_episodes": 20,
+          "batch_size": 64,
+          "learning_rate": 0.0003,
+          "max_episode_steps": 1000,
+          "hidden_dim": 256,
+          "ppo_epochs": 10,
+          "mini_batch_size": 64,
+          "clip_epsilon": 0.2,
+          "value_coef": 0.5,
+          "entropy_coef": 0.01,
+          "max_grad_norm": 0.5,
+          "buffer_size": 10000,
+          "gamma": 0.99,
+          "gae_lambda": 0.95,
+          "embedding_dim": 128,
+          "temperature": 1.0,
+          "min_weight": 0.01,
+          "initial_p": 0.0,
+          "final_p": 1.0,
+          "independence_steps": 1000000,
+          "num_seeds": 2,
+          "log_level": 20,
+          "environment_type": "centipede",
+          "experiment_id": "size_transfer_centipede_4_to_20",
+          "results_dir": "data/paper_results",
+          "source_robots": [
+            "Centipede-4",
+            "Centipede-6"
+          ],
+          "target_robot": "Centipede-20",
+          "transfer_type": "quad_to_biped",
+          "ablation_type": "no_attention",
+          "baseline_method": "PPO",
+          "observation_shape": [
+            10
+          ],
+          "action_shape": [
+            4
+          ],
+          "_extra_params": {}
+        },
+        "experiment_type": "size_transfer",
+        "scenario": "Centipede-4_Centipede-6_to_Centipede-20"
+      }
+    ]
+  },
+  "morphology_transfer": {
+    "quad_to_biped": {
+      "training_curves": [
+        {
+          "episode": 4,
+          "reward": -3.726960321450237,
+          "policy_loss": -1.1429892778396606,
+          "value_loss": 0.2840413168072701,
+          "entropy_loss": -8.20071620941162,
+          "total_loss": -1.0829757928848267,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.1999999,
+          "approx_kl": -0.4620923183858395,
+          "clip_fraction": 0.675,
+          "transfer_weights_mean": 0.5,
+          "transfer_weights_std": 0.0010738968849182129,
+          "semantic_distance_mean": 0.17808224260807037,
+          "independence_p": 0.0,
+          "transfer_strength": 1.0
+        },
+        {
+          "episode": 5,
+          "reward": 5.98464391066045,
+          "policy_loss": -1.1888526678085327,
+          "value_loss": 0.12371767833828926,
+          "entropy_loss": -8.07614221572876,
+          "total_loss": -1.2077552556991578,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.1999998,
+          "approx_kl": -0.6676477372646332,
+          "clip_fraction": 0.890625,
+          "transfer_weights_mean": 0.5000000298023224,
+          "transfer_weights_std": 0.001128166913986206,
+          "semantic_distance_mean": 0.019114759750664234,
+          "independence_p": 0.0003333333333333333,
+          "transfer_strength": 0.9996666666666667
+        },
+        {
+          "episode": 6,
+          "reward": 0.4676202694436286,
+          "policy_loss": -1.1853535056114197,
+          "value_loss": 0.07057308666408062,
+          "entropy_loss": -7.948421955108643,
+          "total_loss": -1.2295511722564698,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.1999997,
+          "approx_kl": -0.6076238036155701,
+          "clip_fraction": 0.928125,
+          "transfer_weights_mean": 0.4999999701976776,
+          "transfer_weights_std": 0.002087801694869995,
+          "semantic_distance_mean": 0.21954041719436646,
+          "independence_p": 0.0003333333333333333,
+          "transfer_strength": 0.9996666666666667
+        },
+        {
+          "episode": 7,
+          "reward": -0.5202320286624569,
+          "policy_loss": -1.175996768474579,
+          "value_loss": 0.0790125910192728,
+          "entropy_loss": -7.686212873458862,
+          "total_loss": -1.2133526086807251,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.1999996,
+          "approx_kl": -0.6051420092582702,
+          "clip_fraction": 0.9,
+          "transfer_weights_mean": 0.5000000149011612,
+          "transfer_weights_std": 0.0008315891027450562,
+          "semantic_distance_mean": 0.018126649782061577,
+          "independence_p": 0.0006666666666666666,
+          "transfer_strength": 0.9993333333333333
+        },
+        {
+          "episode": 8,
+          "reward": -2.810081554457268,
+          "policy_loss": -1.1727644324302673,
+          "value_loss": 0.05360145047307015,
+          "entropy_loss": -7.6601334571838375,
+          "total_loss": -1.2225650668144226,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.19999950000000002,
+          "approx_kl": -0.6124247312545776,
+          "clip_fraction": 0.884375,
+          "transfer_weights_mean": 0.4999999701976776,
+          "transfer_weights_std": 6.940960884094238e-05,
+          "semantic_distance_mean": 0.017646046355366707,
+          "independence_p": 0.0006666666666666666,
+          "transfer_strength": 0.9993333333333333
+        },
+        {
+          "episode": 9,
+          "reward": -0.9597718241977513,
+          "policy_loss": -1.1654462218284607,
+          "value_loss": 0.04168411437422037,
+          "entropy_loss": -7.768779468536377,
+          "total_loss": -1.2222919583320617,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.19999940000000002,
+          "approx_kl": -0.6249749302864075,
+          "clip_fraction": 0.871875,
+          "transfer_weights_mean": 0.4999999701976776,
+          "transfer_weights_std": 0.0017049014568328857,
+          "semantic_distance_mean": 0.01408307533711195,
+          "independence_p": 0.001,
+          "transfer_strength": 0.999
+        },
+        {
+          "episode": 10,
+          "reward": -9.708822953902787,
+          "policy_loss": -1.1775909185409545,
+          "value_loss": 0.02511957408860326,
+          "entropy_loss": -7.801496362686157,
+          "total_loss": -1.2430460929870606,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.19999930000000002,
+          "approx_kl": -0.6391849279403686,
+          "clip_fraction": 0.8890625,
+          "transfer_weights_mean": 0.5000000149011612,
+          "transfer_weights_std": 0.002048179507255554,
+          "semantic_distance_mean": 0.033436816185712814,
+          "independence_p": 0.001,
+          "transfer_strength": 0.999
+        },
+        {
+          "episode": 11,
+          "reward": -2.1518943366016248,
+          "policy_loss": -1.1752933502197265,
+          "value_loss": 0.025601466372609138,
+          "entropy_loss": -7.438218259811402,
+          "total_loss": -1.236874794960022,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.19999920000000002,
+          "approx_kl": -0.6703316986560821,
+          "clip_fraction": 0.878125,
+          "transfer_weights_mean": 0.5,
+          "transfer_weights_std": 0.000773310661315918,
+          "semantic_distance_mean": 0.03319902345538139,
+          "independence_p": 0.0013333333333333333,
+          "transfer_strength": 0.9986666666666667
+        },
+        {
+          "episode": 12,
+          "reward": -0.189074038318163,
+          "policy_loss": -1.1317571163177491,
+          "value_loss": 0.038645915873348716,
+          "entropy_loss": -7.22285008430481,
+          "total_loss": -1.1846626162528993,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.1999991,
+          "approx_kl": -0.5858048737049103,
+          "clip_fraction": 0.8828125,
+          "transfer_weights_mean": 0.4999999701976776,
+          "transfer_weights_std": 0.009125679731369019,
+          "semantic_distance_mean": 0.21103645116090775,
+          "independence_p": 0.0013333333333333333,
+          "transfer_strength": 0.9986666666666667
+        },
+        {
+          "episode": 13,
+          "reward": -0.3658460708827747,
+          "policy_loss": -1.1185523748397828,
+          "value_loss": 0.024078575894236565,
+          "entropy_loss": -7.300234699249268,
+          "total_loss": -1.1795154333114624,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.199999,
+          "approx_kl": -0.48050578236579894,
+          "clip_fraction": 0.840625,
+          "transfer_weights_mean": 0.4999999850988388,
+          "transfer_weights_std": 0.00045014917850494385,
+          "semantic_distance_mean": 0.014080998487770557,
+          "independence_p": 0.0016666666666666668,
+          "transfer_strength": 0.9983333333333333
+        },
+        {
+          "episode": 14,
+          "reward": -3.2341368137765945,
+          "policy_loss": -1.1403325080871582,
+          "value_loss": 0.023139963485300542,
+          "entropy_loss": -7.261972379684448,
+          "total_loss": -1.2013822436332702,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.1999989,
+          "approx_kl": -0.6123368322849274,
+          "clip_fraction": 0.86875,
+          "transfer_weights_mean": 0.4999999850988388,
+          "transfer_weights_std": 0.001897469162940979,
+          "semantic_distance_mean": 0.01537273172289133,
+          "independence_p": 0.0016666666666666668,
+          "transfer_strength": 0.9983333333333333
+        },
+        {
+          "episode": 15,
+          "reward": -2.889949480536426,
+          "policy_loss": -1.1209329128265382,
+          "value_loss": 0.034050210192799565,
+          "entropy_loss": -7.390262317657471,
+          "total_loss": -1.1778104424476623,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.1999988,
+          "approx_kl": -0.4973447501659393,
+          "clip_fraction": 0.85,
+          "transfer_weights_mean": 0.5000000149011612,
+          "transfer_weights_std": 0.002180323004722595,
+          "semantic_distance_mean": 0.026050484739243984,
+          "independence_p": 0.002,
+          "transfer_strength": 0.998
+        },
+        {
+          "episode": 16,
+          "reward": -5.147035103418065,
+          "policy_loss": -1.1063177824020385,
+          "value_loss": 0.021468674391508104,
+          "entropy_loss": -7.629065322875976,
+          "total_loss": -1.1718740820884705,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.1999987,
+          "approx_kl": -0.5184497475624085,
+          "clip_fraction": 0.8375,
+          "transfer_weights_mean": 0.4999999850988388,
+          "transfer_weights_std": 0.0007171183824539185,
+          "semantic_distance_mean": 0.025803069584071636,
+          "independence_p": 0.002,
+          "transfer_strength": 0.998
+        },
+        {
+          "episode": 17,
+          "reward": 3.493496703421618,
+          "policy_loss": -1.124154543876648,
+          "value_loss": 0.023840019293129445,
+          "entropy_loss": -7.305001497268677,
+          "total_loss": -1.1852845430374146,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.1999986,
+          "approx_kl": -0.5722265690565109,
+          "clip_fraction": 0.871875,
+          "transfer_weights_mean": 0.5000000149011612,
+          "transfer_weights_std": 0.0025392621755599976,
+          "semantic_distance_mean": 0.019126642495393753,
+          "independence_p": 0.0023333333333333335,
+          "transfer_strength": 0.9976666666666667
+        },
+        {
+          "episode": 18,
+          "reward": -1.7539126167304069,
+          "policy_loss": -1.1314163088798523,
+          "value_loss": 0.018975130654871462,
+          "entropy_loss": -7.58358244895935,
+          "total_loss": -1.1977645754814148,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.19999850000000002,
+          "approx_kl": -0.5505411863327027,
+          "clip_fraction": 0.85625,
+          "transfer_weights_mean": 0.4999999850988388,
+          "transfer_weights_std": 0.0003271251916885376,
+          "semantic_distance_mean": 0.014253308065235615,
+          "independence_p": 0.0023333333333333335,
+          "transfer_strength": 0.9976666666666667
+        },
+        {
+          "episode": 19,
+          "reward": -1.1094869692649292,
+          "policy_loss": -1.1389302968978883,
+          "value_loss": 0.01875519994646311,
+          "entropy_loss": -7.679266309738159,
+          "total_loss": -1.2063453555107118,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.19999840000000002,
+          "approx_kl": -0.4937834799289703,
+          "clip_fraction": 0.7859375,
+          "transfer_weights_mean": 0.4999999850988388,
+          "transfer_weights_std": 0.0007060915231704712,
+          "semantic_distance_mean": 0.028173760510981083,
+          "independence_p": 0.0026666666666666666,
+          "transfer_strength": 0.9973333333333333
+        }
+      ],
+      "transfer_statistics": [
+        {
+          "transfer_weights_mean": [
+            0.5010738968849182,
+            0.4989261031150818
+          ],
+          "transfer_weights_std": [
+            0.0,
+            0.0
+          ],
+          "independence_p_mean": 0.0,
+          "independence_p_std": 0.0,
+          "semantic_distance_mean": 0.17808224260807037,
+          "semantic_distance_std": 0.011624962091445923
+        },
+        {
+          "transfer_weights_mean": [
+            0.5011010468006134,
+            0.498898983001709
+          ],
+          "transfer_weights_std": [
+            2.714991569519043e-05,
+            2.7120113372802734e-05
+          ],
+          "independence_p_mean": 0.00016666666666666666,
+          "independence_p_std": 0.00016666666666666666,
+          "semantic_distance_mean": 0.0985985011793673,
+          "semantic_distance_std": 0.07992259010255129
+        },
+        {
+          "transfer_weights_mean": [
+            0.5014299551645914,
+            0.4985700448354085
+          ],
+          "transfer_weights_std": [
+            0.0004656746028479857,
+            0.00046571554429477837
+          ],
+          "independence_p_mean": 0.0002222222222222222,
+          "independence_p_std": 0.00015713484026367723,
+          "semantic_distance_mean": 0.13891247318436703,
+          "semantic_distance_std": 0.0867056312111028
+        },
+        {
+          "transfer_weights_mean": [
+            0.5012803673744202,
+            0.49871964007616043
+          ],
+          "transfer_weights_std": [
+            0.00047934241175617387,
+            0.00047937921765048915
+          ],
+          "independence_p_mean": 0.0003333333333333333,
+          "independence_p_std": 0.00023570226039551585,
+          "semantic_distance_mean": 0.10871601733379066,
+          "semantic_distance_std": 0.09151100360964955
+        },
+        {
+          "transfer_weights_mean": [
+            0.5010381698608398,
+            0.49896182417869567
+          ],
+          "transfer_weights_std": [
+            0.0006468800974713489,
+            0.000646881832744876
+          ],
+          "independence_p_mean": 0.0004,
+          "independence_p_std": 0.0002494438257849294,
+          "semantic_distance_mean": 0.09050202313810587,
+          "semantic_distance_std": 0.08959141346297178
+        },
+        {
+          "transfer_weights_mean": [
+            0.5005809863408407,
+            0.49941899875799817
+          ],
+          "transfer_weights_std": [
+            0.001180591125332849,
+            0.0011805746063173756
+          ],
+          "independence_p_mean": 0.0005,
+          "independence_p_std": 0.0003191423692521127,
+          "semantic_distance_mean": 0.07776553183794022,
+          "semantic_distance_std": 0.08662771967710521
+        },
+        {
+          "transfer_weights_mean": [
+            0.5002053933484214,
+            0.49979459813662935
+          ],
+          "transfer_weights_std": [
+            0.0014286715338471447,
+            0.0014286699069949887
+          ],
+          "independence_p_mean": 0.0005714285714285715,
+          "independence_p_std": 0.0003433858357584752,
+          "semantic_distance_mean": 0.0714328581733363,
+          "semantic_distance_std": 0.08169190978330396
+        },
+        {
+          "transfer_weights_mean": [
+            0.5002763830125332,
+            0.4997236095368862
+          ],
+          "transfer_weights_std": [
+            0.0013495337285696013,
+            0.001349531829677759
+          ],
+          "independence_p_mean": 0.0006666666666666666,
+          "independence_p_std": 0.00040824829046386303,
+          "semantic_distance_mean": 0.06665362883359194,
+          "semantic_distance_std": 0.07745550437608029
+        },
+        {
+          "transfer_weights_mean": [
+            0.4992317060629527,
+            0.5007682806915708
+          ],
+          "transfer_weights_std": [
+            0.003217091943618997,
+            0.0032170761814876206
+          ],
+          "independence_p_mean": 0.0007407407407407407,
+          "independence_p_std": 0.000438228132081453,
+          "semantic_distance_mean": 0.08269616464773814,
+          "semantic_distance_std": 0.08599866562257344
+        },
+        {
+          "transfer_weights_mean": [
+            0.4992635190486908,
+            0.500736466050148
+          ],
+          "transfer_weights_std": [
+            0.003053493263605242,
+            0.0030534784728936874
+          ],
+          "independence_p_mean": 0.0008333333333333333,
+          "independence_p_std": 0.0005,
+          "semantic_distance_mean": 0.07583464803174138,
+          "semantic_distance_std": 0.08414235854385439
+        },
+        {
+          "transfer_weights_mean": [
+            0.4991579733111642,
+            0.5008420104330237
+          ],
+          "transfer_weights_std": [
+            0.002930460720943667,
+            0.0029304462224203865
+          ],
+          "independence_p_mean": 0.0009090909090909091,
+          "independence_p_std": 0.0005335399048987579,
+          "semantic_distance_mean": 0.07033811018548229,
+          "semantic_distance_std": 0.08209054799051389
+        },
+        {
+          "transfer_weights_mean": [
+            0.499046449859937,
+            0.5009535377224287
+          ],
+          "transfer_weights_std": [
+            0.002829978618733231,
+            0.0028299665203659354
+          ],
+          "independence_p_mean": 0.001,
+          "independence_p_std": 0.0005931710140017395,
+          "semantic_distance_mean": 0.06664747473162909,
+          "semantic_distance_std": 0.07955242303088372
+        },
+        {
+          "transfer_weights_mean": [
+            0.49906463577197147,
+            0.5009353504731104
+          ],
+          "transfer_weights_std": [
+            0.0027196852372132615,
+            0.0027196737239064826
+          ],
+          "independence_p_mean": 0.0010769230769230769,
+          "independence_p_std": 0.0006291202126351435,
+          "semantic_distance_mean": 0.06350559741258621,
+          "semantic_distance_std": 0.07720802028193172
+        },
+        {
+          "transfer_weights_mean": [
+            0.49895007269723074,
+            0.5010499166590827
+          ],
+          "transfer_weights_std": [
+            0.0026531064853545084,
+            0.0026530972726609117
+          ],
+          "independence_p_mean": 0.0011666666666666668,
+          "independence_p_std": 0.0006871842709362769,
+          "semantic_distance_mean": 0.06033567206135818,
+          "semantic_distance_std": 0.07529327331540392
+        },
+        {
+          "transfer_weights_mean": [
+            0.49899825851122537,
+            0.5010017295678456
+          ],
+          "transfer_weights_std": [
+            0.0025694776327441922,
+            0.00256946908971233
+          ],
+          "independence_p_mean": 0.0012444444444444445,
+          "independence_p_std": 0.0007248669524577818,
+          "semantic_distance_mean": 0.05726351446161668,
+          "semantic_distance_std": 0.07364677818363055
+        },
+        {
+          "transfer_weights_mean": [
+            0.49901673570275307,
+            0.5009832512587309
+          ],
+          "transfer_weights_std": [
+            0.0024889150141579096,
+            0.0024889068702779
+          ],
+          "independence_p_mean": 0.0013333333333333335,
+          "independence_p_std": 0.0007817359599705717,
+          "semantic_distance_mean": 0.05544540483970195,
+          "semantic_distance_std": 0.07165545986476264
+        }
+      ],
+      "final_performance": {
+        "mean_reward": -1.851137122692616,
+        "std_reward": 3.4526695731282855,
+        "max_reward": 5.98464391066045,
+        "min_reward": -9.708822953902787,
+        "final_independence_p": 0.0026666666666666666,
+        "total_episodes": 20,
+        "source_robots": [
+          "HalfCheetah",
+          "Ant"
+        ],
+        "target_robot": "Walker2d",
+        "transfer_transfer_weights_mean": [
+          0.49901673570275307,
+          0.5009832512587309
+        ],
+        "transfer_transfer_weights_std": [
+          0.0024889150141579096,
+          0.0024889068702779
+        ],
+        "transfer_independence_p_mean": 0.0013333333333333335,
+        "transfer_independence_p_std": 0.0007817359599705717,
+        "transfer_semantic_distance_mean": 0.05544540483970195,
+        "transfer_semantic_distance_std": 0.07165545986476264,
+        "transfer_type": "quad_to_biped",
+        "morphology_complexity": -0.75,
+        "source_target_similarity": 0.3333333333333333
+      },
+      "config": {
+        "device": "cpu",
+        "total_episodes": 20,
+        "batch_size": 64,
+        "learning_rate": 0.0003,
+        "max_episode_steps": 1000,
+        "hidden_dim": 256,
+        "ppo_epochs": 10,
+        "mini_batch_size": 64,
+        "clip_epsilon": 0.2,
+        "value_coef": 0.5,
+        "entropy_coef": 0.01,
+        "max_grad_norm": 0.5,
+        "buffer_size": 10000,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "embedding_dim": 128,
+        "temperature": 1.0,
+        "min_weight": 0.01,
+        "initial_p": 0.0,
+        "final_p": 1.0,
+        "independence_steps": 1000000,
+        "num_seeds": 2,
+        "log_level": 20,
+        "environment_type": "centipede",
+        "experiment_id": "morphology_quad_to_biped",
+        "results_dir": "data/paper_results",
+        "source_robots": [
+          "HalfCheetah",
+          "Ant"
+        ],
+        "target_robot": "Humanoid",
+        "transfer_type": "quad_to_biped",
+        "ablation_type": "no_attention",
+        "baseline_method": "PPO",
+        "observation_shape": [
+          10
+        ],
+        "action_shape": [
+          4
+        ],
+        "_extra_params": {}
+      },
+      "experiment_type": "size_transfer",
+      "scenario": "HalfCheetah_Ant_to_Walker2d"
+    },
+    "biped_to_humanoid": {
+      "training_curves": [
+        {
+          "episode": 2,
+          "reward": -139.19310758677472,
+          "policy_loss": -0.9488086938858032,
+          "value_loss": 58.59145240783691,
+          "entropy_loss": -21.734504318237306,
+          "total_loss": 28.129572582244872,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.1999999,
+          "approx_kl": 15476190.175033916,
+          "clip_fraction": 0.81875,
+          "transfer_weights_mean": 0.5000000298023224,
+          "transfer_weights_std": 3.466010093688965e-05,
+          "semantic_distance_mean": 0.0009861757862381637,
+          "independence_p": 0.0,
+          "transfer_strength": 1.0
+        },
+        {
+          "episode": 3,
+          "reward": -126.70647786564545,
+          "policy_loss": -0.9789054036140442,
+          "value_loss": 44.440801811218265,
+          "entropy_loss": -21.434564971923827,
+          "total_loss": 21.027149868011474,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.1999998,
+          "approx_kl": 4679.814288330078,
+          "clip_fraction": 0.9109375,
+          "transfer_weights_mean": 0.4999999850988388,
+          "transfer_weights_std": 0.00034256279468536377,
+          "semantic_distance_mean": 0.007445217110216618,
+          "independence_p": 0.0003333333333333333,
+          "transfer_strength": 0.9996666666666667
+        },
+        {
+          "episode": 4,
+          "reward": -51.87526417098436,
+          "policy_loss": -1.0350313544273377,
+          "value_loss": 46.485250854492186,
+          "entropy_loss": -21.02721462249756,
+          "total_loss": 21.99732189178467,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.1999997,
+          "approx_kl": 25770.046484375,
+          "clip_fraction": 0.9578125,
+          "transfer_weights_mean": 0.5,
+          "transfer_weights_std": 0.0003075599670410156,
+          "semantic_distance_mean": 0.011884547770023346,
+          "independence_p": 0.0003333333333333333,
+          "transfer_strength": 0.9996666666666667
+        },
+        {
+          "episode": 5,
+          "reward": -98.96157785810975,
+          "policy_loss": -0.953801840543747,
+          "value_loss": 12.521349954605103,
+          "entropy_loss": -20.866589736938476,
+          "total_loss": 5.098207259178162,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.1999996,
+          "approx_kl": 46909.2404296875,
+          "clip_fraction": 0.9765625,
+          "transfer_weights_mean": 0.5000000149011612,
+          "transfer_weights_std": 0.00027988851070404053,
+          "semantic_distance_mean": 0.007864611689001322,
+          "independence_p": 0.0006666666666666666,
+          "transfer_strength": 0.9993333333333333
+        },
+        {
+          "episode": 6,
+          "reward": -20.978459512164783,
+          "policy_loss": -1.0142785906791687,
+          "value_loss": 47.64842071533203,
+          "entropy_loss": -21.063162803649902,
+          "total_loss": 22.59930028915405,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.19999950000000002,
+          "approx_kl": 468.47222595214845,
+          "clip_fraction": 0.971875,
+          "transfer_weights_mean": 0.4999999701976776,
+          "transfer_weights_std": 6.29127025604248e-05,
+          "semantic_distance_mean": 0.001816491421777755,
+          "independence_p": 0.0006666666666666666,
+          "transfer_strength": 0.9993333333333333
+        },
+        {
+          "episode": 7,
+          "reward": -123.2296124745628,
+          "policy_loss": -0.9080083191394805,
+          "value_loss": 249.4417251586914,
+          "entropy_loss": -18.854490280151367,
+          "total_loss": 123.62430763244629,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.19999940000000002,
+          "approx_kl": 116888975.6,
+          "clip_fraction": 0.953125,
+          "transfer_weights_mean": 0.5,
+          "transfer_weights_std": 0.00010311603546142578,
+          "semantic_distance_mean": 0.00871055806055665,
+          "independence_p": 0.001,
+          "transfer_strength": 0.999
+        },
+        {
+          "episode": 8,
+          "reward": -35.358568430028534,
+          "policy_loss": -0.9433764934539794,
+          "value_loss": 77.98148193359376,
+          "entropy_loss": -19.676566886901856,
+          "total_loss": 37.850599479675296,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.19999930000000002,
+          "approx_kl": 206301584.0,
+          "clip_fraction": 0.9640625,
+          "transfer_weights_mean": 0.5000000149011612,
+          "transfer_weights_std": 0.0001491755247116089,
+          "semantic_distance_mean": 0.010938340332359076,
+          "independence_p": 0.001,
+          "transfer_strength": 0.999
+        },
+        {
+          "episode": 9,
+          "reward": -37.03837832429309,
+          "policy_loss": -0.8044786095619202,
+          "value_loss": 43.79946460723877,
+          "entropy_loss": -18.990383529663085,
+          "total_loss": 20.905350017547608,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.19999920000000002,
+          "approx_kl": 9501.507836914063,
+          "clip_fraction": 0.975,
+          "transfer_weights_mean": 0.5000000149011612,
+          "transfer_weights_std": 0.00014363229274749756,
+          "semantic_distance_mean": 0.009466010611504316,
+          "independence_p": 0.0013333333333333333,
+          "transfer_strength": 0.9986666666666667
+        },
+        {
+          "episode": 10,
+          "reward": -327.8392321592238,
+          "policy_loss": -0.9609603464603425,
+          "value_loss": 96.96023941040039,
+          "entropy_loss": -20.4493070602417,
+          "total_loss": 47.31466693878174,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.1999991,
+          "approx_kl": 27537.600646972656,
+          "clip_fraction": 0.965625,
+          "transfer_weights_mean": 0.4999999850988388,
+          "transfer_weights_std": 8.620321750640869e-05,
+          "semantic_distance_mean": 0.009233506862074137,
+          "independence_p": 0.0013333333333333333,
+          "transfer_strength": 0.9986666666666667
+        },
+        {
+          "episode": 11,
+          "reward": -164.21183411570914,
+          "policy_loss": -0.8472341060638428,
+          "value_loss": 63.861689758300784,
+          "entropy_loss": -19.257235717773437,
+          "total_loss": 30.89103832244873,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.199999,
+          "approx_kl": 43136898.80078125,
+          "clip_fraction": 0.940625,
+          "transfer_weights_mean": 0.4999999701976776,
+          "transfer_weights_std": 3.007054328918457e-05,
+          "semantic_distance_mean": 0.0015456502442248166,
+          "independence_p": 0.0016666666666666668,
+          "transfer_strength": 0.9983333333333333
+        },
+        {
+          "episode": 12,
+          "reward": 26.25319275103304,
+          "policy_loss": -0.9287934839725495,
+          "value_loss": 63.011540222167966,
+          "entropy_loss": -20.493051719665527,
+          "total_loss": 30.372046279907227,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.1999989,
+          "approx_kl": 45.413578796386716,
+          "clip_fraction": 0.9484375,
+          "transfer_weights_mean": 0.4999999850988388,
+          "transfer_weights_std": 0.00036872923374176025,
+          "semantic_distance_mean": 0.009887024760246277,
+          "independence_p": 0.0016666666666666668,
+          "transfer_strength": 0.9983333333333333
+        },
+        {
+          "episode": 13,
+          "reward": -265.76600282971714,
+          "policy_loss": -0.872433316707611,
+          "value_loss": 49.86870193481445,
+          "entropy_loss": -20.68999900817871,
+          "total_loss": 23.85501823425293,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.1999988,
+          "approx_kl": 29.858407974243164,
+          "clip_fraction": 0.940625,
+          "transfer_weights_mean": 0.5000000149011612,
+          "transfer_weights_std": 0.0003278106451034546,
+          "semantic_distance_mean": 0.012216178234666586,
+          "independence_p": 0.002,
+          "transfer_strength": 0.998
+        },
+        {
+          "episode": 14,
+          "reward": 13.63317665977101,
+          "policy_loss": -0.7269364058971405,
+          "value_loss": 56.579593658447266,
+          "entropy_loss": -18.333149337768553,
+          "total_loss": 27.379528999328613,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.1999987,
+          "approx_kl": 2639518.23125,
+          "clip_fraction": 0.94375,
+          "transfer_weights_mean": 0.4999999701976776,
+          "transfer_weights_std": 0.0001042783260345459,
+          "semantic_distance_mean": 0.008896301034837961,
+          "independence_p": 0.002,
+          "transfer_strength": 0.998
+        },
+        {
+          "episode": 15,
+          "reward": -5.1433456920877045,
+          "policy_loss": -0.7878065824508667,
+          "value_loss": 80.29072952270508,
+          "entropy_loss": -17.457785224914552,
+          "total_loss": 39.18298110961914,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.1999986,
+          "approx_kl": 388128.40625,
+          "clip_fraction": 0.9625,
+          "transfer_weights_mean": 0.5,
+          "transfer_weights_std": 5.0067901611328125e-06,
+          "semantic_distance_mean": 0.009516705758869648,
+          "independence_p": 0.0023333333333333335,
+          "transfer_strength": 0.9976666666666667
+        },
+        {
+          "episode": 16,
+          "reward": -55.65578320975891,
+          "policy_loss": -0.841228848695755,
+          "value_loss": 36.44734191894531,
+          "entropy_loss": -20.531069374084474,
+          "total_loss": 17.177131748199464,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.19999850000000002,
+          "approx_kl": 845956.040625,
+          "clip_fraction": 0.9640625,
+          "transfer_weights_mean": 0.5,
+          "transfer_weights_std": 4.971027374267578e-05,
+          "semantic_distance_mean": 0.010770250111818314,
+          "independence_p": 0.0023333333333333335,
+          "transfer_strength": 0.9976666666666667
+        },
+        {
+          "episode": 17,
+          "reward": -142.49395545298273,
+          "policy_loss": -0.6957435011863708,
+          "value_loss": 68.13833427429199,
+          "entropy_loss": -20.41883029937744,
+          "total_loss": 33.169235420227054,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.19999840000000002,
+          "approx_kl": 4778429.24453125,
+          "clip_fraction": 0.9578125,
+          "transfer_weights_mean": 0.4999999850988388,
+          "transfer_weights_std": 0.000325813889503479,
+          "semantic_distance_mean": 0.008488391526043415,
+          "independence_p": 0.0026666666666666666,
+          "transfer_strength": 0.9973333333333333
+        },
+        {
+          "episode": 18,
+          "reward": 33.94945882357027,
+          "policy_loss": -0.7131542921066284,
+          "value_loss": 59.87202110290527,
+          "entropy_loss": -20.929491996765137,
+          "total_loss": 29.01356143951416,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.19999830000000002,
+          "approx_kl": 29439.73896484375,
+          "clip_fraction": 0.98125,
+          "transfer_weights_mean": 0.5,
+          "transfer_weights_std": 4.2438507080078125e-05,
+          "semantic_distance_mean": 0.010316064115613699,
+          "independence_p": 0.0026666666666666666,
+          "transfer_strength": 0.9973333333333333
+        },
+        {
+          "episode": 19,
+          "reward": -50.86829970433833,
+          "policy_loss": -0.7729290127754211,
+          "value_loss": 57.4456283569336,
+          "entropy_loss": -20.190727996826173,
+          "total_loss": 27.747977828979494,
+          "policy_lr": 0.0003,
+          "value_lr": 0.0003,
+          "clip_epsilon": 0.19999820000000001,
+          "approx_kl": 7460830.25,
+          "clip_fraction": 0.95625,
+          "transfer_weights_mean": 0.5,
+          "transfer_weights_std": 6.16908073425293e-05,
+          "semantic_distance_mean": 0.001327683450654149,
+          "independence_p": 0.003,
+          "transfer_strength": 0.997
+        }
+      ],
+      "transfer_statistics": [
+        {
+          "transfer_weights_mean": [
+            0.5000346899032593,
+            0.4999653697013855
+          ],
+          "transfer_weights_std": [
+            0.0,
+            0.0
+          ],
+          "independence_p_mean": 0.0,
+          "independence_p_std": 0.0,
+          "semantic_distance_mean": 0.0009861757862381637,
+          "semantic_distance_std": 8.724007057026029e-05
+        },
+        {
+          "transfer_weights_mean": [
+            0.49984605610370636,
+            0.5001539587974548
+          ],
+          "transfer_weights_std": [
+            0.00018863379955291748,
+            0.00018858909606933594
+          ],
+          "independence_p_mean": 0.00016666666666666666,
+          "independence_p_std": 0.00016666666666666666,
+          "semantic_distance_mean": 0.004215696448227391,
+          "semantic_distance_std": 0.0032668499649183506
+        },
+        {
+          "transfer_weights_mean": [
+            0.4997948507467906,
+            0.5002051591873169
+          ],
+          "transfer_weights_std": [
+            0.00017019337250001078,
+            0.00017015735251492013
+          ],
+          "independence_p_mean": 0.0002222222222222222,
+          "independence_p_std": 0.00015713484026367723,
+          "semantic_distance_mean": 0.0067719802221593755,
+          "semantic_distance_std": 0.004535108922613017
+        },
+        {
+          "transfer_weights_mean": [
+            0.49991611391305923,
+            0.500083900988102
+          ],
+          "transfer_weights_std": [
+            0.000256590343763561,
+            0.0002565653836582634
+          ],
+          "independence_p_mean": 0.0003333333333333333,
+          "independence_p_std": 0.00023570226039551585,
+          "semantic_distance_mean": 0.007045138088869862,
+          "semantic_distance_std": 0.003974646956229863
+        },
+        {
+          "transfer_weights_mean": [
+            0.499945467710495,
+            0.500054532289505
+          ],
+          "transfer_weights_std": [
+            0.00023689125206676704,
+            0.0002368770117645115
+          ],
+          "independence_p_mean": 0.0004,
+          "independence_p_std": 0.0002494438257849294,
+          "semantic_distance_mean": 0.0059994087554514405,
+          "semantic_distance_std": 0.0041247462868352494
+        },
+        {
+          "transfer_weights_mean": [
+            0.49997174243132275,
+            0.5000282575686773
+          ],
+          "transfer_weights_std": [
+            0.00022409006937913398,
+            0.00022407752458680096
+          ],
+          "independence_p_mean": 0.0005,
+          "independence_p_std": 0.0003191423692521127,
+          "semantic_distance_mean": 0.006451266972968976,
+          "semantic_distance_std": 0.003906676188883267
+        },
+        {
+          "transfer_weights_mean": [
+            0.4999970921448299,
+            0.5000029121126447
+          ],
+          "transfer_weights_std": [
+            0.00021656001811165714,
+            0.0002165459014661629
+          ],
+          "independence_p_mean": 0.0005714285714285715,
+          "independence_p_std": 0.0003433858357584752,
+          "semantic_distance_mean": 0.007092277452881847,
+          "semantic_distance_std": 0.003943021779464064
+        },
+        {
+          "transfer_weights_mean": [
+            0.5000154115259647,
+            0.49998459592461586
+          ],
+          "transfer_weights_std": [
+            0.00020829104479094525,
+            0.00020827623656801113
+          ],
+          "independence_p_mean": 0.0006666666666666666,
+          "independence_p_std": 0.00040824829046386303,
+          "semantic_distance_mean": 0.007388994097709656,
+          "semantic_distance_std": 0.0037720114428191043
+        },
+        {
+          "transfer_weights_mean": [
+            0.5000041193432279,
+            0.4999958839681413
+          ],
+          "transfer_weights_std": [
+            0.00019895902394162775,
+            0.00019894336448934543
+          ],
+          "independence_p_mean": 0.0007407407407407407,
+          "independence_p_std": 0.000438228132081453,
+          "semantic_distance_mean": 0.00759393996041682,
+          "semantic_distance_std": 0.003603373033572223
+        },
+        {
+          "transfer_weights_mean": [
+            0.5000067114830017,
+            0.49999328553676603
+          ],
+          "transfer_weights_std": [
+            0.00018890922842596,
+            0.0001888951631392805
+          ],
+          "independence_p_mean": 0.0008333333333333333,
+          "independence_p_std": 0.0005,
+          "semantic_distance_mean": 0.00698911098879762,
+          "semantic_distance_std": 0.0038703269066287975
+        },
+        {
+          "transfer_weights_mean": [
+            0.5000396208329634,
+            0.4999603737484325
+          ],
+          "transfer_weights_std": [
+            0.00020802092344154397,
+            0.00020801316956089996
+          ],
+          "independence_p_mean": 0.0009090909090909091,
+          "independence_p_std": 0.0005335399048987579,
+          "semantic_distance_mean": 0.007252557695292952,
+          "semantic_distance_std": 0.0037834172888670486
+        },
+        {
+          "transfer_weights_mean": [
+            0.5000090027848879,
+            0.4999909947315852
+          ],
+          "transfer_weights_std": [
+            0.0002235592973265829,
+            0.0002235571057242651
+          ],
+          "independence_p_mean": 0.001,
+          "independence_p_std": 0.0005931710140017395,
+          "semantic_distance_mean": 0.0076661927402407555,
+          "semantic_distance_std": 0.003873429839994044
+        },
+        {
+          "transfer_weights_mean": [
+            0.5000163293801821,
+            0.49998366374235886
+          ],
+          "transfer_weights_std": [
+            0.00021628311873314712,
+            0.00021628281433761623
+          ],
+          "independence_p_mean": 0.0010769230769230769,
+          "independence_p_std": 0.0006291202126351435,
+          "semantic_distance_mean": 0.007760816455209771,
+          "semantic_distance_std": 0.0037405611260831794
+        },
+        {
+          "transfer_weights_mean": [
+            0.5000155206237521,
+            0.499984472990036
+          ],
+          "transfer_weights_std": [
+            0.00020843602661307906,
+            0.00020843575810572837
+          ],
+          "independence_p_mean": 0.0011666666666666668,
+          "independence_p_std": 0.0006871842709362769,
+          "semantic_distance_mean": 0.007886237119756905,
+          "semantic_distance_std": 0.0036486458941536615
+        },
+        {
+          "transfer_weights_mean": [
+            0.5000111718972524,
+            0.49998882214228313
+          ],
+          "transfer_weights_std": [
+            0.00020202466504842275,
+            0.00020202453479811663
+          ],
+          "independence_p_mean": 0.0012444444444444445,
+          "independence_p_std": 0.0007248669524577818,
+          "semantic_distance_mean": 0.008078504652560999,
+          "semantic_distance_std": 0.0035996552432812612
+        },
+        {
+          "transfer_weights_mean": [
+            0.4999901093542576,
+            0.5000098831951618
+          ],
+          "transfer_weights_std": [
+            0.00021193761633688278,
+            0.0002119352786690084
+          ],
+          "independence_p_mean": 0.0013333333333333335,
+          "independence_p_std": 0.0007817359599705717,
+          "semantic_distance_mean": 0.00810412258215365,
+          "semantic_distance_std": 0.0034881271736430697
+        },
+        {
+          "transfer_weights_mean": [
+            0.4999881947741789,
+            0.5000117982135099
+          ],
+          "transfer_weights_std": [
+            0.00020575226384112155,
+            0.00020575006280130646
+          ],
+          "independence_p_mean": 0.0014117647058823533,
+          "independence_p_std": 0.0008207235112335824,
+          "semantic_distance_mean": 0.008234236790004242,
+          "semantic_distance_std": 0.0034252799967545897
+        },
+        {
+          "transfer_weights_mean": [
+            0.4999922778871324,
+            0.5000077154901292
+          ],
+          "transfer_weights_std": [
+            0.0002006627177869256,
+            0.00020066045154672
+          ],
+          "independence_p_mean": 0.0015000000000000002,
+          "independence_p_std": 0.0008766518798921945,
+          "semantic_distance_mean": 0.007850539382262569,
+          "semantic_distance_std": 0.003685796685379657
+        }
+      ],
+      "final_performance": {
+        "mean_reward": -82.49030419774422,
+        "std_reward": 92.33423646362469,
+        "max_reward": 33.94945882357027,
+        "min_reward": -327.8392321592238,
+        "final_independence_p": 0.003,
+        "total_episodes": 20,
+        "source_robots": [
+          "Walker2d",
+          "Hopper"
+        ],
+        "target_robot": "Humanoid",
+        "transfer_transfer_weights_mean": [
+          0.4999922778871324,
+          0.5000077154901292
+        ],
+        "transfer_transfer_weights_std": [
+          0.0002006627177869256,
+          0.00020066045154672
+        ],
+        "transfer_independence_p_mean": 0.0015000000000000002,
+        "transfer_independence_p_std": 0.0008766518798921945,
+        "transfer_semantic_distance_mean": 0.007850539382262569,
+        "transfer_semantic_distance_std": 0.003685796685379657,
+        "transfer_type": "biped_to_humanoid",
+        "morphology_complexity": 2.5,
+        "source_target_similarity": 0.6666666666666666
+      },
+      "config": {
+        "device": "cpu",
+        "total_episodes": 20,
+        "batch_size": 64,
+        "learning_rate": 0.0003,
+        "max_episode_steps": 1000,
+        "hidden_dim": 256,
+        "ppo_epochs": 10,
+        "mini_batch_size": 64,
+        "clip_epsilon": 0.2,
+        "value_coef": 0.5,
+        "entropy_coef": 0.01,
+        "max_grad_norm": 0.5,
+        "buffer_size": 10000,
+        "gamma": 0.99,
+        "gae_lambda": 0.95,
+        "embedding_dim": 128,
+        "temperature": 1.0,
+        "min_weight": 0.01,
+        "initial_p": 0.0,
+        "final_p": 1.0,
+        "independence_steps": 1000000,
+        "num_seeds": 2,
+        "log_level": 20,
+        "environment_type": "centipede",
+        "experiment_id": "morphology_biped_to_humanoid",
+        "results_dir": "data/paper_results",
+        "source_robots": [
+          "HalfCheetah",
+          "Ant"
+        ],
+        "target_robot": "Humanoid",
+        "transfer_type": "biped_to_humanoid",
+        "ablation_type": "no_attention",
+        "baseline_method": "PPO",
+        "observation_shape": [
+          10
+        ],
+        "action_shape": [
+          4
+        ],
+        "_extra_params": {}
+      },
+      "experiment_type": "size_transfer",
+      "scenario": "Walker2d_Hopper_to_Humanoid"
+    }
+  },
+  "ablation_studies": {
+    "no_attention": {
+      "final_performance": {
+        "mean_reward": 570.3226190463861,
+        "std_reward": 69.56940966729857
+      },
+      "ablation_type": "no_attention"
+    },
+    "no_semantic_space": {
+      "final_performance": {
+        "mean_reward": 568.1727851898047,
+        "std_reward": 78.36076036055486
+      },
+      "ablation_type": "no_semantic_space"
+    },
+    "fixed_weights": {
+      "final_performance": {
+        "mean_reward": 323.44879119401094,
+        "std_reward": 55.60638675890115
+      },
+      "ablation_type": "fixed_weights"
+    }
+  },
+  "baseline_comparison": {
+    "PPO": {
+      "final_performance": {
+        "mean_reward": 309.57571610327204,
+        "std_reward": 91.20044484590446
+      },
+      "baseline_method": "PPO"
+    },
+    "CAT": {
+      "final_performance": {
+        "mean_reward": 351.99406444862774,
+        "std_reward": 99.12804463021092
+      },
+      "baseline_method": "CAT"
+    },
+    "NerveNet": {
+      "final_performance": {
+        "mean_reward": 539.3528765694127,
+        "std_reward": 142.10167879309952
+      },
+      "baseline_method": "NerveNet"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "mean_reward": 776.3982712551655,
+  "std_reward": 24.229851609028966,
+  "max_reward": 815.5937522966392,
+  "min_reward": 749.6332897730948,
+  "mean_length": 100.0,
+  "total_episodes": 4
+}

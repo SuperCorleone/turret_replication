@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: turret-replication
+Version: 0.1.0
+Summary: Replication of TURRET: Transferable Unified Robot Representation with sTructured policy
+Author: TURRET Replication Team
+License: MIT
+Requires-Python: >=3.8

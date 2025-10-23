@@ -1,0 +1,7 @@
+2025-10-22 12:05:00,076 - turret - INFO - Running transfer experiment: ['HalfCheetah', 'Ant'] -> Humanoid
+2025-10-22 12:05:00,886 - turret - INFO - Episode 0: reward=41.98, p=0.000
+2025-10-22 12:05:02,559 - turret - INFO - Episode 50: reward=-82.83, p=0.000
+2025-10-22 12:05:04,045 - turret - INFO - Episode 100: reward=-128692.13, p=0.000
+2025-10-22 12:05:05,591 - turret - INFO - Episode 150: reward=-7554278.07, p=0.000
+2025-10-22 12:05:07,125 - turret - INFO - Episode 200: reward=-582159477842700.62, p=0.000
+2025-10-22 12:05:08,672 - turret - INFO - Episode 250: reward=-56.98, p=0.000

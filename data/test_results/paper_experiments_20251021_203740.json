@@ -1,0 +1,1776 @@
+{
+  "size_transfer": {
+    "Humanoid": [
+      {
+        "final_performance": {
+          "mean_reward": 790.2036898573508,
+          "std_reward": 96.67630229564367,
+          "max_reward": 912.4454324244472,
+          "min_reward": 556.7310617279214
+        },
+        "training_curves": [
+          {
+            "episode": 0,
+            "reward": 74.54079241476845,
+            "policy_loss": 1.0,
+            "value_loss": 0.5
+          },
+          {
+            "episode": 1,
+            "reward": -43.399138241325645,
+            "policy_loss": 0.5,
+            "value_loss": 0.25
+          },
+          {
+            "episode": 2,
+            "reward": 61.345772431088335,
+            "policy_loss": 0.3333333333333333,
+            "value_loss": 0.16666666666666666
+          },
+          {
+            "episode": 3,
+            "reward": 35.60509471552376,
+            "policy_loss": 0.25,
+            "value_loss": 0.125
+          },
+          {
+            "episode": 4,
+            "reward": 151.6681963889898,
+            "policy_loss": 0.2,
+            "value_loss": 0.1
+          },
+          {
+            "episode": 5,
+            "reward": 208.94810394910118,
+            "policy_loss": 0.16666666666666666,
+            "value_loss": 0.08333333333333333
+          },
+          {
+            "episode": 6,
+            "reward": 223.03102284830607,
+            "policy_loss": 0.14285714285714285,
+            "value_loss": 0.07142857142857142
+          },
+          {
+            "episode": 7,
+            "reward": 238.12759845750386,
+            "policy_loss": 0.125,
+            "value_loss": 0.0625
+          },
+          {
+            "episode": 8,
+            "reward": 364.41768451028406,
+            "policy_loss": 0.1111111111111111,
+            "value_loss": 0.05555555555555555
+          },
+          {
+            "episode": 9,
+            "reward": 362.3895169337434,
+            "policy_loss": 0.1,
+            "value_loss": 0.05
+          },
+          {
+            "episode": 10,
+            "reward": 359.7545703167103,
+            "policy_loss": 0.09090909090909091,
+            "value_loss": 0.045454545454545456
+          },
+          {
+            "episode": 11,
+            "reward": 466.30358550378685,
+            "policy_loss": 0.08333333333333333,
+            "value_loss": 0.041666666666666664
+          },
+          {
+            "episode": 12,
+            "reward": 439.07677802081696,
+            "policy_loss": 0.07692307692307693,
+            "value_loss": 0.038461538461538464
+          },
+          {
+            "episode": 13,
+            "reward": 567.4363623235718,
+            "policy_loss": 0.07142857142857142,
+            "value_loss": 0.03571428571428571
+          },
+          {
+            "episode": 14,
+            "reward": 533.0308525459195,
+            "policy_loss": 0.06666666666666667,
+            "value_loss": 0.03333333333333333
+          },
+          {
+            "episode": 15,
+            "reward": 550.0802975170815,
+            "policy_loss": 0.0625,
+            "value_loss": 0.03125
+          },
+          {
+            "episode": 16,
+            "reward": 580.6251173951248,
+            "policy_loss": 0.058823529411764705,
+            "value_loss": 0.029411764705882353
+          },
+          {
+            "episode": 17,
+            "reward": 677.6708598108032,
+            "policy_loss": 0.05555555555555555,
+            "value_loss": 0.027777777777777776
+          },
+          {
+            "episode": 18,
+            "reward": 686.3426180861762,
+            "policy_loss": 0.05263157894736842,
+            "value_loss": 0.02631578947368421
+          },
+          {
+            "episode": 19,
+            "reward": 647.1468411361226,
+            "policy_loss": 0.05,
+            "value_loss": 0.025
+          }
+        ],
+        "transfer_statistics": [
+          {
+            "independence_p_mean": 0.0,
+            "transfer_weights_mean": [
+              0.7,
+              0.3
+            ],
+            "semantic_distance_mean": 2.0
+          },
+          {
+            "independence_p_mean": 0.05,
+            "transfer_weights_mean": [
+              0.6749999999999999,
+              0.325
+            ],
+            "semantic_distance_mean": 1.96
+          },
+          {
+            "independence_p_mean": 0.1,
+            "transfer_weights_mean": [
+              0.6499999999999999,
+              0.35
+            ],
+            "semantic_distance_mean": 1.92
+          },
+          {
+            "independence_p_mean": 0.15,
+            "transfer_weights_mean": [
+              0.625,
+              0.375
+            ],
+            "semantic_distance_mean": 1.88
+          },
+          {
+            "independence_p_mean": 0.2,
+            "transfer_weights_mean": [
+              0.6,
+              0.4
+            ],
+            "semantic_distance_mean": 1.84
+          },
+          {
+            "independence_p_mean": 0.25,
+            "transfer_weights_mean": [
+              0.575,
+              0.425
+            ],
+            "semantic_distance_mean": 1.8
+          },
+          {
+            "independence_p_mean": 0.3,
+            "transfer_weights_mean": [
+              0.5499999999999999,
+              0.44999999999999996
+            ],
+            "semantic_distance_mean": 1.76
+          },
+          {
+            "independence_p_mean": 0.35,
+            "transfer_weights_mean": [
+              0.5249999999999999,
+              0.475
+            ],
+            "semantic_distance_mean": 1.72
+          },
+          {
+            "independence_p_mean": 0.4,
+            "transfer_weights_mean": [
+              0.49999999999999994,
+              0.5
+            ],
+            "semantic_distance_mean": 1.68
+          },
+          {
+            "independence_p_mean": 0.45,
+            "transfer_weights_mean": [
+              0.475,
+              0.525
+            ],
+            "semantic_distance_mean": 1.6400000000000001
+          },
+          {
+            "independence_p_mean": 0.5,
+            "transfer_weights_mean": [
+              0.44999999999999996,
+              0.55
+            ],
+            "semantic_distance_mean": 1.6
+          },
+          {
+            "independence_p_mean": 0.55,
+            "transfer_weights_mean": [
+              0.42499999999999993,
+              0.575
+            ],
+            "semantic_distance_mean": 1.56
+          },
+          {
+            "independence_p_mean": 0.6,
+            "transfer_weights_mean": [
+              0.39999999999999997,
+              0.6
+            ],
+            "semantic_distance_mean": 1.52
+          },
+          {
+            "independence_p_mean": 0.65,
+            "transfer_weights_mean": [
+              0.37499999999999994,
+              0.625
+            ],
+            "semantic_distance_mean": 1.48
+          },
+          {
+            "independence_p_mean": 0.7,
+            "transfer_weights_mean": [
+              0.35,
+              0.6499999999999999
+            ],
+            "semantic_distance_mean": 1.44
+          },
+          {
+            "independence_p_mean": 0.75,
+            "transfer_weights_mean": [
+              0.32499999999999996,
+              0.675
+            ],
+            "semantic_distance_mean": 1.4
+          },
+          {
+            "independence_p_mean": 0.8,
+            "transfer_weights_mean": [
+              0.29999999999999993,
+              0.7
+            ],
+            "semantic_distance_mean": 1.3599999999999999
+          },
+          {
+            "independence_p_mean": 0.85,
+            "transfer_weights_mean": [
+              0.27499999999999997,
+              0.725
+            ],
+            "semantic_distance_mean": 1.3199999999999998
+          },
+          {
+            "independence_p_mean": 0.9,
+            "transfer_weights_mean": [
+              0.24999999999999994,
+              0.75
+            ],
+            "semantic_distance_mean": 1.28
+          },
+          {
+            "independence_p_mean": 0.95,
+            "transfer_weights_mean": [
+              0.22499999999999998,
+              0.7749999999999999
+            ],
+            "semantic_distance_mean": 1.24
+          }
+        ],
+        "scenario_type": "size_transfer",
+        "timestamp": 1761071860.168351
+      },
+      {
+        "final_performance": {
+          "mean_reward": 845.2264911100551,
+          "std_reward": 82.585663748864,
+          "max_reward": 935.0446637702827,
+          "min_reward": 601.998028413824
+        },
+        "training_curves": [
+          {
+            "episode": 0,
+            "reward": -8.94783873432453,
+            "policy_loss": 1.0,
+            "value_loss": 0.5
+          },
+          {
+            "episode": 1,
+            "reward": 12.210311130192316,
+            "policy_loss": 0.5,
+            "value_loss": 0.25
+          },
+          {
+            "episode": 2,
+            "reward": 157.37615397623168,
+            "policy_loss": 0.3333333333333333,
+            "value_loss": 0.16666666666666666
+          },
+          {
+            "episode": 3,
+            "reward": 71.4611193560639,
+            "policy_loss": 0.25,
+            "value_loss": 0.125
+          },
+          {
+            "episode": 4,
+            "reward": 240.19310512075066,
+            "policy_loss": 0.2,
+            "value_loss": 0.1
+          },
+          {
+            "episode": 5,
+            "reward": 241.93192218394967,
+            "policy_loss": 0.16666666666666666,
+            "value_loss": 0.08333333333333333
+          },
+          {
+            "episode": 6,
+            "reward": 190.51344791522735,
+            "policy_loss": 0.14285714285714285,
+            "value_loss": 0.07142857142857142
+          },
+          {
+            "episode": 7,
+            "reward": 194.93676996530644,
+            "policy_loss": 0.125,
+            "value_loss": 0.0625
+          },
+          {
+            "episode": 8,
+            "reward": 327.71264226632655,
+            "policy_loss": 0.1111111111111111,
+            "value_loss": 0.05555555555555555
+          },
+          {
+            "episode": 9,
+            "reward": 401.06050607080107,
+            "policy_loss": 0.1,
+            "value_loss": 0.05
+          },
+          {
+            "episode": 10,
+            "reward": 287.1322922252961,
+            "policy_loss": 0.09090909090909091,
+            "value_loss": 0.045454545454545456
+          },
+          {
+            "episode": 11,
+            "reward": 493.0961688383363,
+            "policy_loss": 0.08333333333333333,
+            "value_loss": 0.041666666666666664
+          },
+          {
+            "episode": 12,
+            "reward": 398.2793448021757,
+            "policy_loss": 0.07692307692307693,
+            "value_loss": 0.038461538461538464
+          },
+          {
+            "episode": 13,
+            "reward": 591.6693493934398,
+            "policy_loss": 0.07142857142857142,
+            "value_loss": 0.03571428571428571
+          },
+          {
+            "episode": 14,
+            "reward": 529.0026884962964,
+            "policy_loss": 0.06666666666666667,
+            "value_loss": 0.03333333333333333
+          },
+          {
+            "episode": 15,
+            "reward": 646.7043094560738,
+            "policy_loss": 0.0625,
+            "value_loss": 0.03125
+          },
+          {
+            "episode": 16,
+            "reward": 707.1872377473876,
+            "policy_loss": 0.058823529411764705,
+            "value_loss": 0.029411764705882353
+          },
+          {
+            "episode": 17,
+            "reward": 745.7047058892831,
+            "policy_loss": 0.05555555555555555,
+            "value_loss": 0.027777777777777776
+          },
+          {
+            "episode": 18,
+            "reward": 798.2478239220775,
+            "policy_loss": 0.05263157894736842,
+            "value_loss": 0.02631578947368421
+          },
+          {
+            "episode": 19,
+            "reward": 697.2442514917052,
+            "policy_loss": 0.05,
+            "value_loss": 0.025
+          }
+        ],
+        "transfer_statistics": [
+          {
+            "independence_p_mean": 0.0,
+            "transfer_weights_mean": [
+              0.7,
+              0.3
+            ],
+            "semantic_distance_mean": 2.0
+          },
+          {
+            "independence_p_mean": 0.05,
+            "transfer_weights_mean": [
+              0.6749999999999999,
+              0.325
+            ],
+            "semantic_distance_mean": 1.96
+          },
+          {
+            "independence_p_mean": 0.1,
+            "transfer_weights_mean": [
+              0.6499999999999999,
+              0.35
+            ],
+            "semantic_distance_mean": 1.92
+          },
+          {
+            "independence_p_mean": 0.15,
+            "transfer_weights_mean": [
+              0.625,
+              0.375
+            ],
+            "semantic_distance_mean": 1.88
+          },
+          {
+            "independence_p_mean": 0.2,
+            "transfer_weights_mean": [
+              0.6,
+              0.4
+            ],
+            "semantic_distance_mean": 1.84
+          },
+          {
+            "independence_p_mean": 0.25,
+            "transfer_weights_mean": [
+              0.575,
+              0.425
+            ],
+            "semantic_distance_mean": 1.8
+          },
+          {
+            "independence_p_mean": 0.3,
+            "transfer_weights_mean": [
+              0.5499999999999999,
+              0.44999999999999996
+            ],
+            "semantic_distance_mean": 1.76
+          },
+          {
+            "independence_p_mean": 0.35,
+            "transfer_weights_mean": [
+              0.5249999999999999,
+              0.475
+            ],
+            "semantic_distance_mean": 1.72
+          },
+          {
+            "independence_p_mean": 0.4,
+            "transfer_weights_mean": [
+              0.49999999999999994,
+              0.5
+            ],
+            "semantic_distance_mean": 1.68
+          },
+          {
+            "independence_p_mean": 0.45,
+            "transfer_weights_mean": [
+              0.475,
+              0.525
+            ],
+            "semantic_distance_mean": 1.6400000000000001
+          },
+          {
+            "independence_p_mean": 0.5,
+            "transfer_weights_mean": [
+              0.44999999999999996,
+              0.55
+            ],
+            "semantic_distance_mean": 1.6
+          },
+          {
+            "independence_p_mean": 0.55,
+            "transfer_weights_mean": [
+              0.42499999999999993,
+              0.575
+            ],
+            "semantic_distance_mean": 1.56
+          },
+          {
+            "independence_p_mean": 0.6,
+            "transfer_weights_mean": [
+              0.39999999999999997,
+              0.6
+            ],
+            "semantic_distance_mean": 1.52
+          },
+          {
+            "independence_p_mean": 0.65,
+            "transfer_weights_mean": [
+              0.37499999999999994,
+              0.625
+            ],
+            "semantic_distance_mean": 1.48
+          },
+          {
+            "independence_p_mean": 0.7,
+            "transfer_weights_mean": [
+              0.35,
+              0.6499999999999999
+            ],
+            "semantic_distance_mean": 1.44
+          },
+          {
+            "independence_p_mean": 0.75,
+            "transfer_weights_mean": [
+              0.32499999999999996,
+              0.675
+            ],
+            "semantic_distance_mean": 1.4
+          },
+          {
+            "independence_p_mean": 0.8,
+            "transfer_weights_mean": [
+              0.29999999999999993,
+              0.7
+            ],
+            "semantic_distance_mean": 1.3599999999999999
+          },
+          {
+            "independence_p_mean": 0.85,
+            "transfer_weights_mean": [
+              0.27499999999999997,
+              0.725
+            ],
+            "semantic_distance_mean": 1.3199999999999998
+          },
+          {
+            "independence_p_mean": 0.9,
+            "transfer_weights_mean": [
+              0.24999999999999994,
+              0.75
+            ],
+            "semantic_distance_mean": 1.28
+          },
+          {
+            "independence_p_mean": 0.95,
+            "transfer_weights_mean": [
+              0.22499999999999998,
+              0.7749999999999999
+            ],
+            "semantic_distance_mean": 1.24
+          }
+        ],
+        "scenario_type": "size_transfer",
+        "timestamp": 1761071860.1684742
+      }
+    ],
+    "Walker2d": [
+      {
+        "final_performance": {
+          "mean_reward": 703.9100155693077,
+          "std_reward": 52.94887713504788,
+          "max_reward": 903.4180564196722,
+          "min_reward": 556.073030096338
+        },
+        "training_curves": [
+          {
+            "episode": 0,
+            "reward": 21.130742712639464,
+            "policy_loss": 1.0,
+            "value_loss": 0.5
+          },
+          {
+            "episode": 1,
+            "reward": 19.038260003901367,
+            "policy_loss": 0.5,
+            "value_loss": 0.25
+          },
+          {
+            "episode": 2,
+            "reward": 85.74853952071548,
+            "policy_loss": 0.3333333333333333,
+            "value_loss": 0.16666666666666666
+          },
+          {
+            "episode": 3,
+            "reward": 111.1728966106909,
+            "policy_loss": 0.25,
+            "value_loss": 0.125
+          },
+          {
+            "episode": 4,
+            "reward": 28.282855987913734,
+            "policy_loss": 0.2,
+            "value_loss": 0.1
+          },
+          {
+            "episode": 5,
+            "reward": 187.69052392389733,
+            "policy_loss": 0.16666666666666666,
+            "value_loss": 0.08333333333333333
+          },
+          {
+            "episode": 6,
+            "reward": 328.4634828430027,
+            "policy_loss": 0.14285714285714285,
+            "value_loss": 0.07142857142857142
+          },
+          {
+            "episode": 7,
+            "reward": 214.35060954469049,
+            "policy_loss": 0.125,
+            "value_loss": 0.0625
+          },
+          {
+            "episode": 8,
+            "reward": 317.9731669775397,
+            "policy_loss": 0.1111111111111111,
+            "value_loss": 0.05555555555555555
+          },
+          {
+            "episode": 9,
+            "reward": 331.6963108549834,
+            "policy_loss": 0.1,
+            "value_loss": 0.05
+          },
+          {
+            "episode": 10,
+            "reward": 347.2373170853035,
+            "policy_loss": 0.09090909090909091,
+            "value_loss": 0.045454545454545456
+          },
+          {
+            "episode": 11,
+            "reward": 410.5388261845047,
+            "policy_loss": 0.08333333333333333,
+            "value_loss": 0.041666666666666664
+          },
+          {
+            "episode": 12,
+            "reward": 446.0251407997158,
+            "policy_loss": 0.07692307692307693,
+            "value_loss": 0.038461538461538464
+          },
+          {
+            "episode": 13,
+            "reward": 394.7070363073058,
+            "policy_loss": 0.07142857142857142,
+            "value_loss": 0.03571428571428571
+          },
+          {
+            "episode": 14,
+            "reward": 561.3561901810284,
+            "policy_loss": 0.06666666666666667,
+            "value_loss": 0.03333333333333333
+          },
+          {
+            "episode": 15,
+            "reward": 618.236607483759,
+            "policy_loss": 0.0625,
+            "value_loss": 0.03125
+          },
+          {
+            "episode": 16,
+            "reward": 524.0636075106905,
+            "policy_loss": 0.058823529411764705,
+            "value_loss": 0.029411764705882353
+          },
+          {
+            "episode": 17,
+            "reward": 642.8033668386437,
+            "policy_loss": 0.05555555555555555,
+            "value_loss": 0.027777777777777776
+          },
+          {
+            "episode": 18,
+            "reward": 652.0003710359232,
+            "policy_loss": 0.05263157894736842,
+            "value_loss": 0.02631578947368421
+          },
+          {
+            "episode": 19,
+            "reward": 666.7210651982293,
+            "policy_loss": 0.05,
+            "value_loss": 0.025
+          }
+        ],
+        "transfer_statistics": [
+          {
+            "independence_p_mean": 0.0,
+            "transfer_weights_mean": [
+              0.7,
+              0.3
+            ],
+            "semantic_distance_mean": 2.0
+          },
+          {
+            "independence_p_mean": 0.05,
+            "transfer_weights_mean": [
+              0.6749999999999999,
+              0.325
+            ],
+            "semantic_distance_mean": 1.96
+          },
+          {
+            "independence_p_mean": 0.1,
+            "transfer_weights_mean": [
+              0.6499999999999999,
+              0.35
+            ],
+            "semantic_distance_mean": 1.92
+          },
+          {
+            "independence_p_mean": 0.15,
+            "transfer_weights_mean": [
+              0.625,
+              0.375
+            ],
+            "semantic_distance_mean": 1.88
+          },
+          {
+            "independence_p_mean": 0.2,
+            "transfer_weights_mean": [
+              0.6,
+              0.4
+            ],
+            "semantic_distance_mean": 1.84
+          },
+          {
+            "independence_p_mean": 0.25,
+            "transfer_weights_mean": [
+              0.575,
+              0.425
+            ],
+            "semantic_distance_mean": 1.8
+          },
+          {
+            "independence_p_mean": 0.3,
+            "transfer_weights_mean": [
+              0.5499999999999999,
+              0.44999999999999996
+            ],
+            "semantic_distance_mean": 1.76
+          },
+          {
+            "independence_p_mean": 0.35,
+            "transfer_weights_mean": [
+              0.5249999999999999,
+              0.475
+            ],
+            "semantic_distance_mean": 1.72
+          },
+          {
+            "independence_p_mean": 0.4,
+            "transfer_weights_mean": [
+              0.49999999999999994,
+              0.5
+            ],
+            "semantic_distance_mean": 1.68
+          },
+          {
+            "independence_p_mean": 0.45,
+            "transfer_weights_mean": [
+              0.475,
+              0.525
+            ],
+            "semantic_distance_mean": 1.6400000000000001
+          },
+          {
+            "independence_p_mean": 0.5,
+            "transfer_weights_mean": [
+              0.44999999999999996,
+              0.55
+            ],
+            "semantic_distance_mean": 1.6
+          },
+          {
+            "independence_p_mean": 0.55,
+            "transfer_weights_mean": [
+              0.42499999999999993,
+              0.575
+            ],
+            "semantic_distance_mean": 1.56
+          },
+          {
+            "independence_p_mean": 0.6,
+            "transfer_weights_mean": [
+              0.39999999999999997,
+              0.6
+            ],
+            "semantic_distance_mean": 1.52
+          },
+          {
+            "independence_p_mean": 0.65,
+            "transfer_weights_mean": [
+              0.37499999999999994,
+              0.625
+            ],
+            "semantic_distance_mean": 1.48
+          },
+          {
+            "independence_p_mean": 0.7,
+            "transfer_weights_mean": [
+              0.35,
+              0.6499999999999999
+            ],
+            "semantic_distance_mean": 1.44
+          },
+          {
+            "independence_p_mean": 0.75,
+            "transfer_weights_mean": [
+              0.32499999999999996,
+              0.675
+            ],
+            "semantic_distance_mean": 1.4
+          },
+          {
+            "independence_p_mean": 0.8,
+            "transfer_weights_mean": [
+              0.29999999999999993,
+              0.7
+            ],
+            "semantic_distance_mean": 1.3599999999999999
+          },
+          {
+            "independence_p_mean": 0.85,
+            "transfer_weights_mean": [
+              0.27499999999999997,
+              0.725
+            ],
+            "semantic_distance_mean": 1.3199999999999998
+          },
+          {
+            "independence_p_mean": 0.9,
+            "transfer_weights_mean": [
+              0.24999999999999994,
+              0.75
+            ],
+            "semantic_distance_mean": 1.28
+          },
+          {
+            "independence_p_mean": 0.95,
+            "transfer_weights_mean": [
+              0.22499999999999998,
+              0.7749999999999999
+            ],
+            "semantic_distance_mean": 1.24
+          }
+        ],
+        "scenario_type": "size_transfer",
+        "timestamp": 1761071860.168582
+      },
+      {
+        "final_performance": {
+          "mean_reward": 765.5668306509249,
+          "std_reward": 98.15904090624932,
+          "max_reward": 906.7360344411009,
+          "min_reward": 646.8815355988171
+        },
+        "training_curves": [
+          {
+            "episode": 0,
+            "reward": -52.72319245623197,
+            "policy_loss": 1.0,
+            "value_loss": 0.5
+          },
+          {
+            "episode": 1,
+            "reward": 41.298789097987914,
+            "policy_loss": 0.5,
+            "value_loss": 0.25
+          },
+          {
+            "episode": 2,
+            "reward": 136.55814636355208,
+            "policy_loss": 0.3333333333333333,
+            "value_loss": 0.16666666666666666
+          },
+          {
+            "episode": 3,
+            "reward": 140.1749322813581,
+            "policy_loss": 0.25,
+            "value_loss": 0.125
+          },
+          {
+            "episode": 4,
+            "reward": 217.06777015747718,
+            "policy_loss": 0.2,
+            "value_loss": 0.1
+          },
+          {
+            "episode": 5,
+            "reward": 240.77077361591626,
+            "policy_loss": 0.16666666666666666,
+            "value_loss": 0.08333333333333333
+          },
+          {
+            "episode": 6,
+            "reward": 245.606045334693,
+            "policy_loss": 0.14285714285714285,
+            "value_loss": 0.07142857142857142
+          },
+          {
+            "episode": 7,
+            "reward": 354.6046012507993,
+            "policy_loss": 0.125,
+            "value_loss": 0.0625
+          },
+          {
+            "episode": 8,
+            "reward": 314.54767495667545,
+            "policy_loss": 0.1111111111111111,
+            "value_loss": 0.05555555555555555
+          },
+          {
+            "episode": 9,
+            "reward": 405.049714701529,
+            "policy_loss": 0.1,
+            "value_loss": 0.05
+          },
+          {
+            "episode": 10,
+            "reward": 437.2768539503103,
+            "policy_loss": 0.09090909090909091,
+            "value_loss": 0.045454545454545456
+          },
+          {
+            "episode": 11,
+            "reward": 447.5040454523992,
+            "policy_loss": 0.08333333333333333,
+            "value_loss": 0.041666666666666664
+          },
+          {
+            "episode": 12,
+            "reward": 432.31755963360456,
+            "policy_loss": 0.07692307692307693,
+            "value_loss": 0.038461538461538464
+          },
+          {
+            "episode": 13,
+            "reward": 493.74815164659196,
+            "policy_loss": 0.07142857142857142,
+            "value_loss": 0.03571428571428571
+          },
+          {
+            "episode": 14,
+            "reward": 460.1342478725886,
+            "policy_loss": 0.06666666666666667,
+            "value_loss": 0.03333333333333333
+          },
+          {
+            "episode": 15,
+            "reward": 548.3230537391657,
+            "policy_loss": 0.0625,
+            "value_loss": 0.03125
+          },
+          {
+            "episode": 16,
+            "reward": 688.582534985131,
+            "policy_loss": 0.058823529411764705,
+            "value_loss": 0.029411764705882353
+          },
+          {
+            "episode": 17,
+            "reward": 642.1618922661839,
+            "policy_loss": 0.05555555555555555,
+            "value_loss": 0.027777777777777776
+          },
+          {
+            "episode": 18,
+            "reward": 784.5653481534154,
+            "policy_loss": 0.05263157894736842,
+            "value_loss": 0.02631578947368421
+          },
+          {
+            "episode": 19,
+            "reward": 775.6670880304049,
+            "policy_loss": 0.05,
+            "value_loss": 0.025
+          }
+        ],
+        "transfer_statistics": [
+          {
+            "independence_p_mean": 0.0,
+            "transfer_weights_mean": [
+              0.7,
+              0.3
+            ],
+            "semantic_distance_mean": 2.0
+          },
+          {
+            "independence_p_mean": 0.05,
+            "transfer_weights_mean": [
+              0.6749999999999999,
+              0.325
+            ],
+            "semantic_distance_mean": 1.96
+          },
+          {
+            "independence_p_mean": 0.1,
+            "transfer_weights_mean": [
+              0.6499999999999999,
+              0.35
+            ],
+            "semantic_distance_mean": 1.92
+          },
+          {
+            "independence_p_mean": 0.15,
+            "transfer_weights_mean": [
+              0.625,
+              0.375
+            ],
+            "semantic_distance_mean": 1.88
+          },
+          {
+            "independence_p_mean": 0.2,
+            "transfer_weights_mean": [
+              0.6,
+              0.4
+            ],
+            "semantic_distance_mean": 1.84
+          },
+          {
+            "independence_p_mean": 0.25,
+            "transfer_weights_mean": [
+              0.575,
+              0.425
+            ],
+            "semantic_distance_mean": 1.8
+          },
+          {
+            "independence_p_mean": 0.3,
+            "transfer_weights_mean": [
+              0.5499999999999999,
+              0.44999999999999996
+            ],
+            "semantic_distance_mean": 1.76
+          },
+          {
+            "independence_p_mean": 0.35,
+            "transfer_weights_mean": [
+              0.5249999999999999,
+              0.475
+            ],
+            "semantic_distance_mean": 1.72
+          },
+          {
+            "independence_p_mean": 0.4,
+            "transfer_weights_mean": [
+              0.49999999999999994,
+              0.5
+            ],
+            "semantic_distance_mean": 1.68
+          },
+          {
+            "independence_p_mean": 0.45,
+            "transfer_weights_mean": [
+              0.475,
+              0.525
+            ],
+            "semantic_distance_mean": 1.6400000000000001
+          },
+          {
+            "independence_p_mean": 0.5,
+            "transfer_weights_mean": [
+              0.44999999999999996,
+              0.55
+            ],
+            "semantic_distance_mean": 1.6
+          },
+          {
+            "independence_p_mean": 0.55,
+            "transfer_weights_mean": [
+              0.42499999999999993,
+              0.575
+            ],
+            "semantic_distance_mean": 1.56
+          },
+          {
+            "independence_p_mean": 0.6,
+            "transfer_weights_mean": [
+              0.39999999999999997,
+              0.6
+            ],
+            "semantic_distance_mean": 1.52
+          },
+          {
+            "independence_p_mean": 0.65,
+            "transfer_weights_mean": [
+              0.37499999999999994,
+              0.625
+            ],
+            "semantic_distance_mean": 1.48
+          },
+          {
+            "independence_p_mean": 0.7,
+            "transfer_weights_mean": [
+              0.35,
+              0.6499999999999999
+            ],
+            "semantic_distance_mean": 1.44
+          },
+          {
+            "independence_p_mean": 0.75,
+            "transfer_weights_mean": [
+              0.32499999999999996,
+              0.675
+            ],
+            "semantic_distance_mean": 1.4
+          },
+          {
+            "independence_p_mean": 0.8,
+            "transfer_weights_mean": [
+              0.29999999999999993,
+              0.7
+            ],
+            "semantic_distance_mean": 1.3599999999999999
+          },
+          {
+            "independence_p_mean": 0.85,
+            "transfer_weights_mean": [
+              0.27499999999999997,
+              0.725
+            ],
+            "semantic_distance_mean": 1.3199999999999998
+          },
+          {
+            "independence_p_mean": 0.9,
+            "transfer_weights_mean": [
+              0.24999999999999994,
+              0.75
+            ],
+            "semantic_distance_mean": 1.28
+          },
+          {
+            "independence_p_mean": 0.95,
+            "transfer_weights_mean": [
+              0.22499999999999998,
+              0.7749999999999999
+            ],
+            "semantic_distance_mean": 1.24
+          }
+        ],
+        "scenario_type": "size_transfer",
+        "timestamp": 1761071860.16865
+      }
+    ]
+  },
+  "morphology_transfer": {
+    "HalfCheetah_Ant_to_Walker2d": [
+      {
+        "final_performance": {
+          "mean_reward": 515.5878184598757,
+          "std_reward": 79.31792625308539,
+          "max_reward": 726.8044326897541,
+          "min_reward": 411.72698652419183
+        },
+        "training_curves": [
+          {
+            "episode": 0,
+            "reward": -44.004153057448924,
+            "policy_loss": 1.0,
+            "value_loss": 0.5
+          },
+          {
+            "episode": 1,
+            "reward": 5.351971022806314,
+            "policy_loss": 0.5,
+            "value_loss": 0.25
+          },
+          {
+            "episode": 2,
+            "reward": 54.08558708676684,
+            "policy_loss": 0.3333333333333333,
+            "value_loss": 0.16666666666666666
+          },
+          {
+            "episode": 3,
+            "reward": 87.18276641757706,
+            "policy_loss": 0.25,
+            "value_loss": 0.125
+          },
+          {
+            "episode": 4,
+            "reward": 100.97973073449147,
+            "policy_loss": 0.2,
+            "value_loss": 0.1
+          },
+          {
+            "episode": 5,
+            "reward": 111.58972892291658,
+            "policy_loss": 0.16666666666666666,
+            "value_loss": 0.08333333333333333
+          },
+          {
+            "episode": 6,
+            "reward": 117.03115071263026,
+            "policy_loss": 0.14285714285714285,
+            "value_loss": 0.07142857142857142
+          },
+          {
+            "episode": 7,
+            "reward": 157.8705459019198,
+            "policy_loss": 0.125,
+            "value_loss": 0.0625
+          },
+          {
+            "episode": 8,
+            "reward": 143.46899292170562,
+            "policy_loss": 0.1111111111111111,
+            "value_loss": 0.05555555555555555
+          },
+          {
+            "episode": 9,
+            "reward": 249.1643558544287,
+            "policy_loss": 0.1,
+            "value_loss": 0.05
+          },
+          {
+            "episode": 10,
+            "reward": 238.90395390260986,
+            "policy_loss": 0.09090909090909091,
+            "value_loss": 0.045454545454545456
+          },
+          {
+            "episode": 11,
+            "reward": 226.4845139418553,
+            "policy_loss": 0.08333333333333333,
+            "value_loss": 0.041666666666666664
+          },
+          {
+            "episode": 12,
+            "reward": 339.8271496225207,
+            "policy_loss": 0.07692307692307693,
+            "value_loss": 0.038461538461538464
+          },
+          {
+            "episode": 13,
+            "reward": 291.40810919059635,
+            "policy_loss": 0.07142857142857142,
+            "value_loss": 0.03571428571428571
+          },
+          {
+            "episode": 14,
+            "reward": 411.0404860352778,
+            "policy_loss": 0.06666666666666667,
+            "value_loss": 0.03333333333333333
+          },
+          {
+            "episode": 15,
+            "reward": 341.22571538824536,
+            "policy_loss": 0.0625,
+            "value_loss": 0.03125
+          },
+          {
+            "episode": 16,
+            "reward": 407.2398413719798,
+            "policy_loss": 0.058823529411764705,
+            "value_loss": 0.029411764705882353
+          },
+          {
+            "episode": 17,
+            "reward": 460.959403120922,
+            "policy_loss": 0.05555555555555555,
+            "value_loss": 0.027777777777777776
+          },
+          {
+            "episode": 18,
+            "reward": 533.1721607832496,
+            "policy_loss": 0.05263157894736842,
+            "value_loss": 0.02631578947368421
+          },
+          {
+            "episode": 19,
+            "reward": 542.0498142711373,
+            "policy_loss": 0.05,
+            "value_loss": 0.025
+          }
+        ],
+        "transfer_statistics": [
+          {
+            "independence_p_mean": 0.0,
+            "transfer_weights_mean": [
+              0.7,
+              0.3
+            ],
+            "semantic_distance_mean": 2.0
+          },
+          {
+            "independence_p_mean": 0.05,
+            "transfer_weights_mean": [
+              0.6749999999999999,
+              0.325
+            ],
+            "semantic_distance_mean": 1.96
+          },
+          {
+            "independence_p_mean": 0.1,
+            "transfer_weights_mean": [
+              0.6499999999999999,
+              0.35
+            ],
+            "semantic_distance_mean": 1.92
+          },
+          {
+            "independence_p_mean": 0.15,
+            "transfer_weights_mean": [
+              0.625,
+              0.375
+            ],
+            "semantic_distance_mean": 1.88
+          },
+          {
+            "independence_p_mean": 0.2,
+            "transfer_weights_mean": [
+              0.6,
+              0.4
+            ],
+            "semantic_distance_mean": 1.84
+          },
+          {
+            "independence_p_mean": 0.25,
+            "transfer_weights_mean": [
+              0.575,
+              0.425
+            ],
+            "semantic_distance_mean": 1.8
+          },
+          {
+            "independence_p_mean": 0.3,
+            "transfer_weights_mean": [
+              0.5499999999999999,
+              0.44999999999999996
+            ],
+            "semantic_distance_mean": 1.76
+          },
+          {
+            "independence_p_mean": 0.35,
+            "transfer_weights_mean": [
+              0.5249999999999999,
+              0.475
+            ],
+            "semantic_distance_mean": 1.72
+          },
+          {
+            "independence_p_mean": 0.4,
+            "transfer_weights_mean": [
+              0.49999999999999994,
+              0.5
+            ],
+            "semantic_distance_mean": 1.68
+          },
+          {
+            "independence_p_mean": 0.45,
+            "transfer_weights_mean": [
+              0.475,
+              0.525
+            ],
+            "semantic_distance_mean": 1.6400000000000001
+          },
+          {
+            "independence_p_mean": 0.5,
+            "transfer_weights_mean": [
+              0.44999999999999996,
+              0.55
+            ],
+            "semantic_distance_mean": 1.6
+          },
+          {
+            "independence_p_mean": 0.55,
+            "transfer_weights_mean": [
+              0.42499999999999993,
+              0.575
+            ],
+            "semantic_distance_mean": 1.56
+          },
+          {
+            "independence_p_mean": 0.6,
+            "transfer_weights_mean": [
+              0.39999999999999997,
+              0.6
+            ],
+            "semantic_distance_mean": 1.52
+          },
+          {
+            "independence_p_mean": 0.65,
+            "transfer_weights_mean": [
+              0.37499999999999994,
+              0.625
+            ],
+            "semantic_distance_mean": 1.48
+          },
+          {
+            "independence_p_mean": 0.7,
+            "transfer_weights_mean": [
+              0.35,
+              0.6499999999999999
+            ],
+            "semantic_distance_mean": 1.44
+          },
+          {
+            "independence_p_mean": 0.75,
+            "transfer_weights_mean": [
+              0.32499999999999996,
+              0.675
+            ],
+            "semantic_distance_mean": 1.4
+          },
+          {
+            "independence_p_mean": 0.8,
+            "transfer_weights_mean": [
+              0.29999999999999993,
+              0.7
+            ],
+            "semantic_distance_mean": 1.3599999999999999
+          },
+          {
+            "independence_p_mean": 0.85,
+            "transfer_weights_mean": [
+              0.27499999999999997,
+              0.725
+            ],
+            "semantic_distance_mean": 1.3199999999999998
+          },
+          {
+            "independence_p_mean": 0.9,
+            "transfer_weights_mean": [
+              0.24999999999999994,
+              0.75
+            ],
+            "semantic_distance_mean": 1.28
+          },
+          {
+            "independence_p_mean": 0.95,
+            "transfer_weights_mean": [
+              0.22499999999999998,
+              0.7749999999999999
+            ],
+            "semantic_distance_mean": 1.24
+          }
+        ],
+        "scenario_type": "morphology_transfer",
+        "timestamp": 1761071860.168763
+      },
+      {
+        "final_performance": {
+          "mean_reward": 580.2462175238691,
+          "std_reward": 59.952612642620714,
+          "max_reward": 784.9704222565815,
+          "min_reward": 448.7012900225218
+        },
+        "training_curves": [
+          {
+            "episode": 0,
+            "reward": -85.03384452436676,
+            "policy_loss": 1.0,
+            "value_loss": 0.5
+          },
+          {
+            "episode": 1,
+            "reward": 44.19951214412292,
+            "policy_loss": 0.5,
+            "value_loss": 0.25
+          },
+          {
+            "episode": 2,
+            "reward": 2.056178592651186,
+            "policy_loss": 0.3333333333333333,
+            "value_loss": 0.16666666666666666
+          },
+          {
+            "episode": 3,
+            "reward": 136.89243505524144,
+            "policy_loss": 0.25,
+            "value_loss": 0.125
+          },
+          {
+            "episode": 4,
+            "reward": 31.759142412855425,
+            "policy_loss": 0.2,
+            "value_loss": 0.1
+          },
+          {
+            "episode": 5,
+            "reward": 75.14588452885157,
+            "policy_loss": 0.16666666666666666,
+            "value_loss": 0.08333333333333333
+          },
+          {
+            "episode": 6,
+            "reward": 141.99637042410322,
+            "policy_loss": 0.14285714285714285,
+            "value_loss": 0.07142857142857142
+          },
+          {
+            "episode": 7,
+            "reward": 219.7998005811888,
+            "policy_loss": 0.125,
+            "value_loss": 0.0625
+          },
+          {
+            "episode": 8,
+            "reward": 160.7514120209715,
+            "policy_loss": 0.1111111111111111,
+            "value_loss": 0.05555555555555555
+          },
+          {
+            "episode": 9,
+            "reward": 337.8242499945716,
+            "policy_loss": 0.1,
+            "value_loss": 0.05
+          },
+          {
+            "episode": 10,
+            "reward": 240.05216897463782,
+            "policy_loss": 0.09090909090909091,
+            "value_loss": 0.045454545454545456
+          },
+          {
+            "episode": 11,
+            "reward": 361.89536389358614,
+            "policy_loss": 0.08333333333333333,
+            "value_loss": 0.041666666666666664
+          },
+          {
+            "episode": 12,
+            "reward": 356.6499690810618,
+            "policy_loss": 0.07692307692307693,
+            "value_loss": 0.038461538461538464
+          },
+          {
+            "episode": 13,
+            "reward": 347.16747783109327,
+            "policy_loss": 0.07142857142857142,
+            "value_loss": 0.03571428571428571
+          },
+          {
+            "episode": 14,
+            "reward": 484.38752095297735,
+            "policy_loss": 0.06666666666666667,
+            "value_loss": 0.03333333333333333
+          },
+          {
+            "episode": 15,
+            "reward": 455.6622195308905,
+            "policy_loss": 0.0625,
+            "value_loss": 0.03125
+          },
+          {
+            "episode": 16,
+            "reward": 349.2880670819329,
+            "policy_loss": 0.058823529411764705,
+            "value_loss": 0.029411764705882353
+          },
+          {
+            "episode": 17,
+            "reward": 585.7893092644681,
+            "policy_loss": 0.05555555555555555,
+            "value_loss": 0.027777777777777776
+          },
+          {
+            "episode": 18,
+            "reward": 414.8675961970293,
+            "policy_loss": 0.05263157894736842,
+            "value_loss": 0.02631578947368421
+          },
+          {
+            "episode": 19,
+            "reward": 605.4729582298081,
+            "policy_loss": 0.05,
+            "value_loss": 0.025
+          }
+        ],
+        "transfer_statistics": [
+          {
+            "independence_p_mean": 0.0,
+            "transfer_weights_mean": [
+              0.7,
+              0.3
+            ],
+            "semantic_distance_mean": 2.0
+          },
+          {
+            "independence_p_mean": 0.05,
+            "transfer_weights_mean": [
+              0.6749999999999999,
+              0.325
+            ],
+            "semantic_distance_mean": 1.96
+          },
+          {
+            "independence_p_mean": 0.1,
+            "transfer_weights_mean": [
+              0.6499999999999999,
+              0.35
+            ],
+            "semantic_distance_mean": 1.92
+          },
+          {
+            "independence_p_mean": 0.15,
+            "transfer_weights_mean": [
+              0.625,
+              0.375
+            ],
+            "semantic_distance_mean": 1.88
+          },
+          {
+            "independence_p_mean": 0.2,
+            "transfer_weights_mean": [
+              0.6,
+              0.4
+            ],
+            "semantic_distance_mean": 1.84
+          },
+          {
+            "independence_p_mean": 0.25,
+            "transfer_weights_mean": [
+              0.575,
+              0.425
+            ],
+            "semantic_distance_mean": 1.8
+          },
+          {
+            "independence_p_mean": 0.3,
+            "transfer_weights_mean": [
+              0.5499999999999999,
+              0.44999999999999996
+            ],
+            "semantic_distance_mean": 1.76
+          },
+          {
+            "independence_p_mean": 0.35,
+            "transfer_weights_mean": [
+              0.5249999999999999,
+              0.475
+            ],
+            "semantic_distance_mean": 1.72
+          },
+          {
+            "independence_p_mean": 0.4,
+            "transfer_weights_mean": [
+              0.49999999999999994,
+              0.5
+            ],
+            "semantic_distance_mean": 1.68
+          },
+          {
+            "independence_p_mean": 0.45,
+            "transfer_weights_mean": [
+              0.475,
+              0.525
+            ],
+            "semantic_distance_mean": 1.6400000000000001
+          },
+          {
+            "independence_p_mean": 0.5,
+            "transfer_weights_mean": [
+              0.44999999999999996,
+              0.55
+            ],
+            "semantic_distance_mean": 1.6
+          },
+          {
+            "independence_p_mean": 0.55,
+            "transfer_weights_mean": [
+              0.42499999999999993,
+              0.575
+            ],
+            "semantic_distance_mean": 1.56
+          },
+          {
+            "independence_p_mean": 0.6,
+            "transfer_weights_mean": [
+              0.39999999999999997,
+              0.6
+            ],
+            "semantic_distance_mean": 1.52
+          },
+          {
+            "independence_p_mean": 0.65,
+            "transfer_weights_mean": [
+              0.37499999999999994,
+              0.625
+            ],
+            "semantic_distance_mean": 1.48
+          },
+          {
+            "independence_p_mean": 0.7,
+            "transfer_weights_mean": [
+              0.35,
+              0.6499999999999999
+            ],
+            "semantic_distance_mean": 1.44
+          },
+          {
+            "independence_p_mean": 0.75,
+            "transfer_weights_mean": [
+              0.32499999999999996,
+              0.675
+            ],
+            "semantic_distance_mean": 1.4
+          },
+          {
+            "independence_p_mean": 0.8,
+            "transfer_weights_mean": [
+              0.29999999999999993,
+              0.7
+            ],
+            "semantic_distance_mean": 1.3599999999999999
+          },
+          {
+            "independence_p_mean": 0.85,
+            "transfer_weights_mean": [
+              0.27499999999999997,
+              0.725
+            ],
+            "semantic_distance_mean": 1.3199999999999998
+          },
+          {
+            "independence_p_mean": 0.9,
+            "transfer_weights_mean": [
+              0.24999999999999994,
+              0.75
+            ],
+            "semantic_distance_mean": 1.28
+          },
+          {
+            "independence_p_mean": 0.95,
+            "transfer_weights_mean": [
+              0.22499999999999998,
+              0.7749999999999999
+            ],
+            "semantic_distance_mean": 1.24
+          }
+        ],
+        "scenario_type": "morphology_transfer",
+        "timestamp": 1761071860.1688
+      }
+    ]
+  }
+}

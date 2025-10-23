@@ -1,0 +1,10 @@
+2025-10-23 17:23:18,644 - turret - INFO - Setting up size transfer: ['Centipede-4', 'Centipede-6'] -> Centipede-20
+2025-10-23 17:23:18,670 - turret - INFO - Size transfer experiment setup completed
+2025-10-23 17:23:18,670 - turret - INFO - Starting size transfer experiment
+2025-10-23 17:23:18,727 - turret - INFO - Episode 0: reward=-738.081, policy_loss=-1.141, independence_p=0.000
+2025-10-23 17:23:19,996 - turret - INFO - Evaluating final performance
+2025-10-23 17:23:19,996 - turret - INFO - Evaluation results: {'mean_reward': -2765.257294850033, 'std_reward': 3267.2786650778403, 'max_reward': 1556.981757804714, 'min_reward': -12299.062870196183, 'final_independence_p': 0.005, 'total_episodes': 20, 'source_robots': ['Centipede-4', 'Centipede-6'], 'target_robot': 'Centipede-20', 'transfer_transfer_weights_mean': [0.49994605779647827, 0.500053933262825], 'transfer_transfer_weights_std': [0.003070737167860799, 0.003070733165508341], 'transfer_independence_p_mean': 0.0024999999999999996, 'transfer_independence_p_std': 0.001457737973711325, 'transfer_semantic_distance_mean': 0.1984201090410352, 'transfer_semantic_distance_std': 0.05750547253165402}
+2025-10-23 17:23:19,998 - turret - INFO - Results saved to /var/folders/nc/_mb5fh49765b4s1f10rzjz0c0000gn/T/tmpe45t6sv5/size_transfer_centipede_4_to_20_results.json
+2025-10-23 17:23:19,998 - turret - INFO - Size transfer experiment completed
+2025-10-23 17:23:20,000 - turret - INFO - 🦎 Running Morphology Transfer Experiments...
+2025-10-23 17:23:20,001 - turret - INFO -   Processing: 四足到双足迁移

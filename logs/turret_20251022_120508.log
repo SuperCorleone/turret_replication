@@ -1,0 +1,12 @@
+2025-10-22 12:05:08,922 - turret - INFO - Running transfer experiment: ['HalfCheetah', 'Ant'] -> Walker2d
+2025-10-22 12:05:08,956 - turret - INFO - Episode 0: reward=0.03, p=0.000
+2025-10-22 12:05:10,054 - turret - INFO - Episode 50: reward=-8.42, p=0.000
+2025-10-22 12:05:11,181 - turret - INFO - Episode 100: reward=-3.13, p=0.000
+2025-10-22 12:05:12,334 - turret - INFO - Episode 150: reward=1.83, p=0.000
+2025-10-22 12:05:13,454 - turret - INFO - Episode 200: reward=3.18, p=0.000
+2025-10-22 12:05:14,714 - turret - INFO - Episode 250: reward=-2.86, p=0.000
+2025-10-22 12:05:15,960 - turret - INFO - Episode 300: reward=-2.52, p=0.000
+2025-10-22 12:05:17,205 - turret - INFO - Episode 350: reward=-3.25, p=0.000
+2025-10-22 12:05:18,361 - turret - INFO - Episode 400: reward=-0.16, p=0.000
+2025-10-22 12:05:19,568 - turret - INFO - Episode 450: reward=-2.82, p=0.000
+2025-10-22 12:05:20,710 - turret - INFO - Completed transfer experiment for Walker2d

@@ -1,0 +1,33 @@
+2025-10-23 17:30:29,188 - turret - INFO - Setting up morphology transfer: ['HalfCheetah', 'Ant'] -> Walker2d
+2025-10-23 17:30:29,188 - turret - INFO - Transfer type: quad_to_biped
+2025-10-23 17:30:29,188 - turret - INFO - Setting up size transfer: ['HalfCheetah', 'Ant'] -> Walker2d
+2025-10-23 17:30:29,403 - turret - INFO - Size transfer experiment setup completed
+2025-10-23 17:30:29,403 - turret - INFO - Morphology transfer experiment setup completed
+2025-10-23 17:30:29,403 - turret - INFO - Starting size transfer experiment
+2025-10-23 17:30:29,407 - turret - INFO - Episode 0: reward=0.482, policy_loss=0.000, independence_p=0.000
+2025-10-23 17:30:29,800 - turret - INFO - Evaluating final performance
+2025-10-23 17:30:29,800 - turret - INFO - Evaluation results: {'mean_reward': 0.5842210602960963, 'std_reward': 3.228160113417315, 'max_reward': 6.3755553555754805, 'min_reward': -4.78878800347034, 'final_independence_p': 0.006333333333333333, 'total_episodes': 20, 'source_robots': ['HalfCheetah', 'Ant'], 'target_robot': 'Walker2d', 'transfer_transfer_weights_mean': [0.5008430518209934, 0.4991569295525551], 'transfer_transfer_weights_std': [0.0012993114552277108, 0.0012993127309351932], 'transfer_independence_p_mean': 0.002854166666666667, 'transfer_independence_p_std': 0.0019577791769133605, 'transfer_semantic_distance_mean': 0.032638907287037, 'transfer_semantic_distance_std': 0.056826584096783074}
+2025-10-23 17:30:29,801 - turret - INFO - Results saved to /var/folders/nc/_mb5fh49765b4s1f10rzjz0c0000gn/T/tmpfygevzii/morphology_quad_to_biped_results.json
+2025-10-23 17:30:29,801 - turret - INFO - Size transfer experiment completed
+2025-10-23 17:30:29,801 - turret - INFO -   Processing: 双足到人形迁移
+2025-10-23 17:30:29,801 - turret - INFO - Setting up morphology transfer: ['Walker2d', 'Hopper'] -> Humanoid
+2025-10-23 17:30:29,801 - turret - INFO - Transfer type: biped_to_humanoid
+2025-10-23 17:30:29,802 - turret - INFO - Setting up size transfer: ['Walker2d', 'Hopper'] -> Humanoid
+2025-10-23 17:30:29,831 - turret - INFO - Size transfer experiment setup completed
+2025-10-23 17:30:29,831 - turret - INFO - Morphology transfer experiment setup completed
+2025-10-23 17:30:29,831 - turret - INFO - Starting size transfer experiment
+2025-10-23 17:30:29,839 - turret - INFO - Episode 0: reward=-82.674, policy_loss=0.000, independence_p=0.000
+2025-10-23 17:30:30,475 - turret - INFO - Evaluating final performance
+2025-10-23 17:30:30,475 - turret - INFO - Evaluation results: {'mean_reward': -126.17537710156815, 'std_reward': 95.55200772428357, 'max_reward': 27.647119837922048, 'min_reward': -383.8869878773232, 'final_independence_p': 0.003, 'total_episodes': 20, 'source_robots': ['Walker2d', 'Hopper'], 'target_robot': 'Humanoid', 'transfer_transfer_weights_mean': [0.4998695883486006, 0.500130401717292], 'transfer_transfer_weights_std': [0.0005116134631597505, 0.0005116060022416], 'transfer_independence_p_mean': 0.0015000000000000002, 'transfer_independence_p_std': 0.0008766518798921945, 'transfer_semantic_distance_mean': 0.017360714144564957, 'transfer_semantic_distance_std': 0.03320734129154102}
+2025-10-23 17:30:30,476 - turret - INFO - Results saved to /var/folders/nc/_mb5fh49765b4s1f10rzjz0c0000gn/T/tmpfygevzii/morphology_biped_to_humanoid_results.json
+2025-10-23 17:30:30,476 - turret - INFO - Size transfer experiment completed
+2025-10-23 17:30:30,476 - turret - INFO - 🔬 Running Ablation Studies...
+2025-10-23 17:30:30,476 - turret - INFO -   Processing: 无注意力机制
+2025-10-23 17:30:30,476 - turret - INFO -   Processing: 无语义空间
+2025-10-23 17:30:30,476 - turret - INFO -   Processing: 固定迁移权重
+2025-10-23 17:30:30,476 - turret - INFO - 📈 Running Baseline Comparison Experiments...
+2025-10-23 17:30:30,476 - turret - INFO -   Processing: 原始PPO（无迁移）
+2025-10-23 17:30:30,477 - turret - INFO -   Processing: 对比方法CAT
+2025-10-23 17:30:30,477 - turret - INFO -   Processing: 对比方法NerveNet
+2025-10-23 17:30:30,480 - turret - INFO - 📁 Results saved to: /var/folders/nc/_mb5fh49765b4s1f10rzjz0c0000gn/T/tmpfygevzii/paper_experiments_20251023_173030.json
+2025-10-23 17:30:30,480 - turret - INFO - ✅ All experiments completed successfully!

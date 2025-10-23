@@ -1,0 +1,12 @@
+2025-10-23 17:52:13,893 - turret - INFO - Setting up morphology transfer: ['HalfCheetah', 'Ant'] -> Walker2d
+2025-10-23 17:52:13,894 - turret - INFO - Transfer type: quad_to_biped
+2025-10-23 17:52:13,894 - turret - INFO - Setting up size transfer: ['HalfCheetah', 'Ant'] -> Walker2d
+2025-10-23 17:52:14,121 - turret - INFO - Size transfer experiment setup completed
+2025-10-23 17:52:14,121 - turret - INFO - Morphology transfer experiment setup completed
+2025-10-23 17:52:14,121 - turret - INFO - Starting size transfer experiment
+2025-10-23 17:52:14,130 - turret - INFO - Episode 0: reward=-1.526, policy_loss=0.000, independence_p=0.000
+2025-10-23 17:52:14,527 - turret - INFO - Evaluating final performance
+2025-10-23 17:52:14,527 - turret - INFO - Evaluation results: {'mean_reward': 0.4799452578266316, 'std_reward': 5.002856973835791, 'max_reward': 10.916780002165831, 'min_reward': -8.009705092734094, 'final_independence_p': 0.012, 'total_episodes': 20, 'source_robots': ['HalfCheetah', 'Ant'], 'target_robot': 'Walker2d', 'transfer_transfer_weights_mean': [0.5009052604436874, 0.49909472465515137], 'transfer_transfer_weights_std': [0.0021012940656592928, 0.0021013012545634765], 'transfer_independence_p_mean': 0.006333333333333333, 'transfer_independence_p_std': 0.0034587516480607513, 'transfer_semantic_distance_mean': 0.0339145934364448, 'transfer_semantic_distance_std': 0.04459484804781924}
+2025-10-23 17:52:14,528 - turret - INFO - Results saved to /var/folders/nc/_mb5fh49765b4s1f10rzjz0c0000gn/T/tmpul_u57en/morphology_quad_to_biped_results.json
+2025-10-23 17:52:14,528 - turret - INFO - Size transfer experiment completed
+2025-10-23 17:52:14,528 - turret - INFO -   Processing: 双足到人形迁移

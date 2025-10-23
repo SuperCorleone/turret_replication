@@ -1,0 +1,396 @@
+turret_replication/
+├── configs/                 # 配置文件
+├── environments/            # 环境定义
+├── models/                  # 核心模型
+├── training/                # 训练相关
+├── transfer/                # 迁移学习模块
+├── utils/                   # 工具函数
+├── experiments/             # 实验脚本
+├── data/                    # 数据和检查点
+├── tests/                   # 单元测试
+└── docs/                    # 文档
+
+configs/
+├── __init__.py
+├── base_config.py           # TURRETConfig基类
+├── gnn_config.py            # GNN相关配置
+├── training_config.py       # 训练超参数
+├── transfer_config.py       # 迁移学习配置
+├── environment_config.py    # 环境设置
+└── experiment_configs/      # 具体实验配置
+    ├── size_transfer.yaml
+    ├── morphology_transfer.yaml
+    └── ablation_studies.yaml
+
+environments/
+├── __init__.py
+├── base_env.py              # BaseEnv基类
+├── mujoco_wrapper.py        # MuJoCo环境封装
+├── morphology.py            # MorphologyGraph, Node, Edge
+├── robot_factory.py         # EnvironmentFactory
+└── tasks/
+    ├── __init__.py
+    ├── centipede.py         # Centipede-n任务
+    ├── standard_robots.py   # Hopper, Walker2d等
+    └── custom_tasks.py      # 自定义任务
+
+models/
+├── __init__.py
+├── networks/
+│   ├── __init__.py
+│   ├── input_network.py     # InputNetwork
+│   ├── propagation.py       # AttentionPropagationLayer
+│   ├── set_transformer.py   # MultiHeadSetTransformer
+│   ├── output_network.py    # OutputNetwork
+│   └── base_networks.py     # 基类定义
+├── policies/
+│   ├── __init__.py
+│   ├── structured_policy.py # StructuredPolicyNetwork
+│   ├── value_network.py     # StructuredValueNetwork
+│   └── agent.py             # TURRETAgent
+└── components/
+    ├── __init__.py
+    ├── attention.py         # 注意力机制实现
+    ├── message_passing.py   # 消息传递函数
+    └── distributions.py     # 动作分布
+
+transfer/
+├── __init__.py
+├── semantic_space.py        # SemanticSpaceManager
+├── weight_calculator.py     # AdaptiveWeightCalculator
+├── lateral_connections.py   # LateralConnectionManager
+├── independence.py          # GradualIndependenceScheduler
+└── base_transfer.py         # 迁移基类
+
+training/
+├── __init__.py
+├── trainers/
+│   ├── __init__.py
+│   ├── ppo_trainer.py       # PPOTrainer
+│   ├── transfer_trainer.py  # TransferTrainingLoop
+│   └── base_trainer.py      # 训练器基类
+├── buffers/
+│   ├── __init__.py
+│   ├── experience_buffer.py # 经验回放
+│   └── trajectory_buffer.py # 轨迹存储
+└── optimizers/
+    ├── __init__.py
+    ├── scheduler.py         # 学习率调度
+    └── gradient_utils.py    # 梯度处理
+
+experiments/
+├── __init__.py
+├── runners/
+│   ├── __init__.py
+│   ├── base_runner.py       # ExperimentRunner
+│   ├── size_transfer.py     # 规模迁移实验
+│   ├── morphology_transfer.py # 形态迁移实验
+│   └── ablation_runner.py   # AblationStudyRunner
+├── evaluation/
+│   ├── __init__.py
+│   ├── evaluator.py         # TransferEvaluator
+│   ├── metrics.py           # 评估指标
+│   └── baseline_models.py   # 基线模型实现
+└── visualization/
+    ├── __init__.py
+    ├── tsne_visualizer.py   # VisualizationEngine
+    ├── trajectory_plot.py   # 轨迹可视化
+    └── semantic_plots.py    # 语义空间图
+
+data/
+├── __init__.py
+├── managers/
+│   ├── __init__.py
+│   ├── data_manager.py      # DataManager
+│   └── checkpoint.py        # 模型检查点
+├── pretrained/
+│   ├── source_policies/     # 预训练源策略
+│   └── baseline_models/     # 基线模型权重
+└── results/
+    ├── training_logs/       # 训练日志
+    ├── evaluation_results/  # 评估结果
+    └── visualizations/      # 生成的可视化
+
+utils/
+├── __init__.py
+├── logging_utils.py         # 日志配置
+├── file_utils.py            # 文件操作
+├── math_utils.py            # 数学工具
+├── plotting_utils.py        # 绘图工具
+└── validation.py            # 输入验证
+
+tests/
+├── __init__.py
+├── test_models/
+├── test_transfer/
+├── test_training/
+├── test_environments/
+└── conftest.py              # pytest配置
+
+根目录文件：
+├── main.py                  # 主入口点
+├── train.py                 # 训练脚本
+├── evaluate.py              # 评估脚本
+├── requirements.txt         # 依赖包
+├── setup.py                 # 安装脚本
+├── README.md                # 项目说明
+└── run_experiments.sh       # 批量实验脚本
+
+
+========================================================================================================
+========================================================================================================
+
+
+基于由简到难、阶段性测试的原则，我为您设计以下搭建顺序：
+
+## 第一阶段：基础框架和环境 (Week 1-2)
+
+### 1. 项目基础结构
+```
+turret_replication/
+├── requirements.txt
+├── setup.py
+├── README.md
+└── configs/
+    ├── base_config.py
+    └── environment_config.py
+```
+
+### 2. 环境接口层
+```
+environments/
+├── base_env.py
+├── mujoco_wrapper.py
+└── tasks/
+    ├── standard_robots.py  # 先实现标准环境测试
+    └── centipede.py
+```
+
+### 3. 基础测试
+```
+tests/
+├── test_environments/
+│   └── test_standard_robots.py
+└── conftest.py
+```
+
+**验证目标**：能够成功创建和运行标准MuJoCo环境
+
+## 第二阶段：核心模型组件 (Week 3-4)
+
+### 4. 基础网络组件
+```
+models/
+├── networks/
+│   ├── input_network.py    # 最简单的MLP开始
+│   └── output_network.py
+└── components/
+    └── distributions.py
+```
+
+### 5. GNN基础结构
+```
+models/
+├── morphology.py           # 图结构定义
+└── networks/
+    ├── propagation.py      # 基础消息传递
+    └── attention.py        # 注意力机制
+```
+
+### 6. 策略网络
+```
+models/
+├── policies/
+│   ├── structured_policy.py
+│   └── agent.py
+└── tests/
+    └── test_models/
+        ├── test_input_network.py
+        └── test_policy.py
+```
+
+**验证目标**：能够构建GNN策略网络，前向传播正常
+
+## 第三阶段：训练基础设施 (Week 5-6)
+
+### 7. 训练基础组件
+```
+training/
+├── buffers/
+│   └── experience_buffer.py
+└── optimizers/
+    └── scheduler.py
+```
+
+### 8. PPO训练器
+```
+training/trainers/
+├── base_trainer.py
+└── ppo_trainer.py
+```
+
+### 9. 基础训练脚本
+```
+train.py                    # 单任务训练脚本
+utils/
+├── logging_utils.py
+└── file_utils.py
+```
+
+**验证目标**：能够在标准环境上训练PPO基线
+
+## 第四阶段：迁移学习核心 (Week 7-8)
+
+### 10. 语义空间模块
+```
+transfer/
+├── semantic_space.py
+└── weight_calculator.py
+```
+
+### 11. Set Transformer
+```
+models/networks/
+└── set_transformer.py
+```
+
+### 12. 横向连接
+```
+transfer/
+├── lateral_connections.py
+└── independence.py
+```
+
+**验证目标**：实现状态嵌入和相似度计算
+
+## 第五阶段：完整迁移系统 (Week 9-10)
+
+### 13. 完整训练循环
+```
+training/trainers/
+└── transfer_trainer.py
+```
+
+### 14. 源策略预训练
+```
+data/pretrained/
+└── source_policies/
+experiments/
+└── pretrain_source.py
+```
+
+### 15. 基础迁移测试
+```
+tests/test_transfer/
+└── test_semantic_space.py
+```
+
+**验证目标**：实现完整的迁移训练流程
+
+## 第六阶段：实验和评估 (Week 11-12)
+
+### 16. 评估系统
+```
+experiments/evaluation/
+├── evaluator.py
+└── metrics.py
+```
+
+### 17. 基线模型
+```
+experiments/evaluation/
+└── baseline_models.py
+```
+
+### 18. 实验运行器
+```
+experiments/runners/
+├── base_runner.py
+└── size_transfer.py
+```
+
+**验证目标**：能够运行规模迁移实验
+
+## 第七阶段：高级功能 (Week 13-14)
+
+### 19. 可视化系统
+```
+experiments/visualization/
+├── tsne_visualizer.py
+└── trajectory_plot.py
+```
+
+### 20. 形态迁移
+```
+experiments/runners/
+└── morphology_transfer.py
+```
+
+### 21. 消融实验
+```
+experiments/runners/
+└── ablation_runner.py
+```
+
+**验证目标**：复现论文所有实验类型
+
+## 第八阶段：优化和文档 (Week 15-16)
+
+### 22. 性能优化
+```
+utils/
+├── math_utils.py
+└── validation.py
+```
+
+### 23. 完整实验脚本
+```
+main.py
+run_experiments.sh
+experiments/
+└── full_paper_experiments.py
+```
+
+### 24. 文档和测试
+```
+docs/
+└── API_REFERENCE.md
+tests/
+└── integration_tests/
+```
+
+## 阶段性验证清单
+
+### Phase 1 完成标志
+- [ ] 能够创建和运行MuJoCo环境
+- [ ] 基础配置系统正常工作
+
+### Phase 2 完成标志  
+- [ ] GNN策略网络前向传播正常
+- [ ] 能够处理不同形态的机器人
+
+### Phase 3 完成标志
+- [ ] 在标准环境上成功训练PPO
+- [ ] 达到与论文基线相当的性能
+
+### Phase 4 完成标志
+- [ ] 状态嵌入空间正常工作
+- [ ] 相似度计算准确
+
+### Phase 5 完成标志
+- [ ] 完整迁移训练流程运行
+- [ ] 多源策略能够被正确加载
+
+### Phase 6 完成标志
+- [ ] 规模迁移实验可运行
+- [ ] 与CAT等基线正确对比
+
+### Phase 7 完成标志
+- [ ] 所有论文实验可复现
+- [ ] 可视化分析正常工作
+
+### Phase 8 完成标志
+- [ ] 性能达到论文报告水平
+- [ ] 代码完整文档化
+
+这个顺序确保每个阶段都有明确的验证目标，并且后续阶段依赖于前面阶段的基础设施，便于增量开发和测试。

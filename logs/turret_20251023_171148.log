@@ -1,0 +1,17 @@
+2025-10-23 17:11:48,081 - turret - INFO - Setting up size transfer: ['Centipede-4', 'Centipede-6'] -> Centipede-16
+2025-10-23 17:11:48,107 - turret - INFO - Size transfer experiment setup completed
+2025-10-23 17:11:48,107 - turret - INFO - Starting size transfer experiment
+2025-10-23 17:11:48,166 - turret - INFO - Episode 0: reward=-4449.223, policy_loss=-1.138, independence_p=0.000
+2025-10-23 17:11:48,770 - turret - INFO - Evaluating final performance
+2025-10-23 17:11:48,771 - turret - INFO - Evaluation results: {'mean_reward': -2142.416310608545, 'std_reward': 2385.2398651548765, 'max_reward': 1869.783236711104, 'min_reward': -6144.656976705029, 'final_independence_p': 0.005, 'total_episodes': 10, 'source_robots': ['Centipede-4', 'Centipede-6'], 'target_robot': 'Centipede-16', 'transfer_transfer_weights_mean': [0.4982100248336792, 0.501789978146553], 'transfer_transfer_weights_std': [0.004690249853400486, 0.004690260865566582], 'transfer_independence_p_mean': 0.0025, 'transfer_independence_p_std': 0.0014999999999999998, 'transfer_semantic_distance_mean': 0.20115059092640877, 'transfer_semantic_distance_std': 0.05812454964994852}
+2025-10-23 17:11:48,771 - turret - INFO - Results saved to /var/folders/nc/_mb5fh49765b4s1f10rzjz0c0000gn/T/tmpzib8ysve/size_transfer_centipede_4_to_16_results.json
+2025-10-23 17:11:48,771 - turret - INFO - Size transfer experiment completed
+2025-10-23 17:11:48,771 - turret - INFO -   Processing: Centipede 4/6足到20足迁移
+2025-10-23 17:11:48,773 - turret - INFO - Setting up size transfer: ['Centipede-4', 'Centipede-6'] -> Centipede-20
+2025-10-23 17:11:48,799 - turret - INFO - Size transfer experiment setup completed
+2025-10-23 17:11:48,799 - turret - INFO - Starting size transfer experiment
+2025-10-23 17:11:48,875 - turret - INFO - Episode 0: reward=-7757.005, policy_loss=-1.157, independence_p=0.000
+2025-10-23 17:11:49,457 - turret - INFO - Evaluating final performance
+2025-10-23 17:11:49,457 - turret - INFO - Evaluation results: {'mean_reward': -3012.5531431549975, 'std_reward': 2501.6014365978463, 'max_reward': 906.4073047180638, 'min_reward': -7757.0050421766755, 'final_independence_p': 0.005, 'total_episodes': 10, 'source_robots': ['Centipede-4', 'Centipede-6'], 'target_robot': 'Centipede-20', 'transfer_transfer_weights_mean': [0.4988154947757721, 0.5011845111846924], 'transfer_transfer_weights_std': [0.0047928811798259195, 0.004792868511824944], 'transfer_independence_p_mean': 0.0025, 'transfer_independence_p_std': 0.0014999999999999998, 'transfer_semantic_distance_mean': 0.17353401929140091, 'transfer_semantic_distance_std': 0.044876738348520094}
+2025-10-23 17:11:49,457 - turret - INFO - Results saved to /var/folders/nc/_mb5fh49765b4s1f10rzjz0c0000gn/T/tmpzib8ysve/size_transfer_centipede_4_to_20_results.json
+2025-10-23 17:11:49,457 - turret - INFO - Size transfer experiment completed

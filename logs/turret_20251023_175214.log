@@ -1,0 +1,21 @@
+2025-10-23 17:52:14,529 - turret - INFO - Setting up morphology transfer: ['Walker2d', 'Hopper'] -> Humanoid
+2025-10-23 17:52:14,529 - turret - INFO - Transfer type: biped_to_humanoid
+2025-10-23 17:52:14,529 - turret - INFO - Setting up size transfer: ['Walker2d', 'Hopper'] -> Humanoid
+2025-10-23 17:52:14,575 - turret - INFO - Size transfer experiment setup completed
+2025-10-23 17:52:14,575 - turret - INFO - Morphology transfer experiment setup completed
+2025-10-23 17:52:14,575 - turret - INFO - Starting size transfer experiment
+2025-10-23 17:52:14,584 - turret - INFO - Episode 0: reward=-154.049, policy_loss=0.000, independence_p=0.000
+2025-10-23 17:52:15,140 - turret - INFO - Evaluating final performance
+2025-10-23 17:52:15,140 - turret - INFO - Evaluation results: {'mean_reward': -133.2667586083675, 'std_reward': 114.75670009862978, 'max_reward': 10.96217976055878, 'min_reward': -430.7538445122067, 'final_independence_p': 0.003, 'total_episodes': 20, 'source_robots': ['Walker2d', 'Hopper'], 'target_robot': 'Humanoid', 'transfer_transfer_weights_mean': [0.5003798918591605, 0.49962010482947034], 'transfer_transfer_weights_std': [0.0011769215314808691, 0.0011769134898035412], 'transfer_independence_p_mean': 0.0015000000000000002, 'transfer_independence_p_std': 0.0008766518798921945, 'transfer_semantic_distance_mean': 0.017095191530340042, 'transfer_semantic_distance_std': 0.029787559777381005}
+2025-10-23 17:52:15,141 - turret - INFO - Results saved to /var/folders/nc/_mb5fh49765b4s1f10rzjz0c0000gn/T/tmpul_u57en/morphology_biped_to_humanoid_results.json
+2025-10-23 17:52:15,141 - turret - INFO - Size transfer experiment completed
+2025-10-23 17:52:15,141 - turret - INFO - 🔬 Running Ablation Studies...
+2025-10-23 17:52:15,141 - turret - INFO -   Processing: 无注意力机制
+2025-10-23 17:52:15,142 - turret - INFO -   Processing: 无语义空间
+2025-10-23 17:52:15,142 - turret - INFO -   Processing: 固定迁移权重
+2025-10-23 17:52:15,142 - turret - INFO - 📈 Running Baseline Comparison Experiments...
+2025-10-23 17:52:15,142 - turret - INFO -   Processing: 原始PPO（无迁移）
+2025-10-23 17:52:15,142 - turret - INFO -   Processing: 对比方法CAT
+2025-10-23 17:52:15,142 - turret - INFO -   Processing: 对比方法NerveNet
+2025-10-23 17:52:15,146 - turret - INFO - 📁 Results saved to: /var/folders/nc/_mb5fh49765b4s1f10rzjz0c0000gn/T/tmpul_u57en/paper_experiments_20251023_175215.json
+2025-10-23 17:52:15,146 - turret - INFO - ✅ All experiments completed successfully!

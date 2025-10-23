@@ -1,0 +1,24 @@
+2025-10-23 17:15:46,085 - turret - INFO -   Processing: 四足到双足迁移
+2025-10-23 17:15:46,085 - turret - INFO - Setting up morphology transfer: ['HalfCheetah', 'Ant'] -> Walker2d
+2025-10-23 17:15:46,085 - turret - INFO - Transfer type: quad_to_biped
+2025-10-23 17:15:46,085 - turret - INFO - Setting up size transfer: ['HalfCheetah', 'Ant'] -> Walker2d
+2025-10-23 17:15:46,296 - turret - INFO - Size transfer experiment setup completed
+2025-10-23 17:15:46,296 - turret - INFO - Morphology transfer experiment setup completed
+2025-10-23 17:15:46,296 - turret - INFO - Starting size transfer experiment
+2025-10-23 17:15:46,300 - turret - INFO - Episode 0: reward=-3.543, policy_loss=0.000, independence_p=0.000
+2025-10-23 17:15:46,463 - turret - INFO - Evaluating final performance
+2025-10-23 17:15:46,463 - turret - INFO - Evaluation results: {'mean_reward': 1.5952025180307192, 'std_reward': 5.755450430023974, 'max_reward': 10.269924686481874, 'min_reward': -4.874848818835158, 'final_independence_p': 0.008, 'total_episodes': 10, 'source_robots': ['HalfCheetah', 'Ant'], 'target_robot': 'Walker2d', 'transfer_transfer_weights_mean': [0.4990017073495047, 0.5009982883930206], 'transfer_transfer_weights_std': [0.0025843095129234627, 0.0025843007019833086], 'transfer_independence_p_mean': 0.004, 'transfer_independence_p_std': 0.0026666666666666666, 'transfer_semantic_distance_mean': 0.052647178793059926, 'transfer_semantic_distance_std': 0.07547334495580436}
+2025-10-23 17:15:46,464 - turret - INFO - Results saved to /var/folders/nc/_mb5fh49765b4s1f10rzjz0c0000gn/T/tmp9z89bgka/morphology_quad_to_biped_results.json
+2025-10-23 17:15:46,464 - turret - INFO - Size transfer experiment completed
+2025-10-23 17:15:46,464 - turret - INFO -   Processing: 双足到人形迁移
+2025-10-23 17:15:46,464 - turret - INFO - Setting up morphology transfer: ['Walker2d', 'Hopper'] -> Humanoid
+2025-10-23 17:15:46,464 - turret - INFO - Transfer type: biped_to_humanoid
+2025-10-23 17:15:46,464 - turret - INFO - Setting up size transfer: ['Walker2d', 'Hopper'] -> Humanoid
+2025-10-23 17:15:46,494 - turret - INFO - Size transfer experiment setup completed
+2025-10-23 17:15:46,494 - turret - INFO - Morphology transfer experiment setup completed
+2025-10-23 17:15:46,494 - turret - INFO - Starting size transfer experiment
+2025-10-23 17:15:46,503 - turret - INFO - Episode 0: reward=-37.574, policy_loss=0.000, independence_p=0.000
+2025-10-23 17:15:46,724 - turret - INFO - Evaluating final performance
+2025-10-23 17:15:46,724 - turret - INFO - Evaluation results: {'mean_reward': -42.44832153615071, 'std_reward': 72.28996152290323, 'max_reward': 32.59310426011738, 'min_reward': -186.64329663093628, 'final_independence_p': 0.002, 'total_episodes': 10, 'source_robots': ['Walker2d', 'Hopper'], 'target_robot': 'Humanoid', 'transfer_transfer_weights_mean': [0.5000024012156895, 0.49999759026936125], 'transfer_transfer_weights_std': [0.00032178253093212824, 0.0003217909681352513], 'transfer_independence_p_mean': 0.001142857142857143, 'transfer_independence_p_std': 0.0006867716715169504, 'transfer_semantic_distance_mean': 0.009151424347822155, 'transfer_semantic_distance_std': 0.00126425677454028}
+2025-10-23 17:15:46,725 - turret - INFO - Results saved to /var/folders/nc/_mb5fh49765b4s1f10rzjz0c0000gn/T/tmp9z89bgka/morphology_biped_to_humanoid_results.json
+2025-10-23 17:15:46,725 - turret - INFO - Size transfer experiment completed

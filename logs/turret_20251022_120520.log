@@ -1,0 +1,12 @@
+2025-10-22 12:05:20,715 - turret - INFO - Running transfer experiment: ['Hopper', 'Walker2d'] -> Humanoid
+2025-10-22 12:05:20,783 - turret - INFO - Episode 0: reward=-608097047.24, p=0.000
+2025-10-22 12:05:23,564 - turret - INFO - Episode 50: reward=-28620.67, p=0.000
+2025-10-22 12:05:26,457 - turret - INFO - Episode 100: reward=-178175.67, p=0.000
+2025-10-22 12:05:29,314 - turret - INFO - Episode 150: reward=-573889.28, p=0.000
+2025-10-22 12:05:32,105 - turret - INFO - Episode 200: reward=129.98, p=0.000
+2025-10-22 12:05:34,941 - turret - INFO - Episode 250: reward=64.59, p=0.000
+2025-10-22 12:05:37,539 - turret - INFO - Episode 300: reward=-154.28, p=0.000
+2025-10-22 12:05:40,312 - turret - INFO - Episode 350: reward=-1005195.10, p=0.000
+2025-10-22 12:05:43,112 - turret - INFO - Episode 400: reward=193.32, p=0.000
+2025-10-22 12:05:46,164 - turret - INFO - Episode 450: reward=45.14, p=0.000
+2025-10-22 12:05:49,061 - turret - INFO - Completed transfer experiment for Humanoid

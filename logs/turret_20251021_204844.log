@@ -1,0 +1,15 @@
+2025-10-21 20:48:44,886 - turret - INFO - Starting paper experiment replication...
+2025-10-21 20:48:44,886 - turret - INFO - Running Size Transfer Experiments...
+2025-10-21 20:48:44,887 - turret - INFO - Processing target: Humanoid
+2025-10-21 20:48:44,887 - turret - INFO -   Seed 0: Final reward = 763.42
+2025-10-21 20:48:44,887 - turret - INFO -   Seed 1: Final reward = 843.97
+2025-10-21 20:48:44,887 - turret - INFO - Processing target: Walker2d
+2025-10-21 20:48:44,887 - turret - INFO -   Seed 0: Final reward = 774.53
+2025-10-21 20:48:44,887 - turret - INFO -   Seed 1: Final reward = 774.46
+2025-10-21 20:48:44,887 - turret - INFO - Running Morphology Transfer Experiments...
+2025-10-21 20:48:44,887 - turret - INFO - Processing scenario: HalfCheetah_Ant_to_Walker2d
+2025-10-21 20:48:44,887 - turret - INFO -   Seed 0: Final reward = 550.60
+2025-10-21 20:48:44,887 - turret - INFO -   Seed 1: Final reward = 595.73
+2025-10-21 20:48:44,889 - turret - INFO - Results saved to: data/test_results/paper_experiments_20251021_204844.json
+2025-10-21 20:48:44,889 - turret - INFO - Training statistics saved to: data/test_results/training_statistics_20251021_204844.json
+2025-10-21 20:48:44,889 - turret - INFO - All experiments completed successfully!

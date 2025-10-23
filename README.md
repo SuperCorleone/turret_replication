@@ -24,7 +24,6 @@ TURRET is a novel framework that enables effective knowledge transfer across dif
 
 ### Installation & Setup
 
-```bash
 # Clone repository
 git clone https://github.com/your-username/turret-replication.git
 cd turret-replication
